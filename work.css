@@ -6,12 +6,10 @@ body{
 
 	background-image:url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-524770.jpg");
 	background-size:cover;
-	background-width:1900px;
-	background-height:1000px;
 	background-position:right bottom, left top;
 	background-repeat:no-repeat,repeat;
-	width:1900px;
-	height:1000px;
+	width:100%;
+	height:100%;
 	background-color:black;
 }
 body, html{
