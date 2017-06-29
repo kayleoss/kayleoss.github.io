@@ -1,0 +1,277 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+
+	background-image:url("program.jpg");
+	background-width:100%;
+	background-height:100%;
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	background-color:black;
+}
+body, html{
+	height:100%;
+}
+h1 a{
+	font-family:impact;
+	font-size:80px;
+	text-align:left;
+	text-decoration:none;
+	color:black;
+}
+h1 a:hover{
+	color:#004080;
+
+}
+.titlecontainer{
+	width:300px;
+	background-color:#cce6ff;
+	left:0px;
+	padding:20px;
+	opacity:0.75;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li a{
+	text-decoration:none;
+	list-style:none;
+	font-family:impact;
+	font-size:30px;
+	line-height:30px;
+	color:black;
+	}
+nav ul li a:hover{
+	color:#004080;
+	}
+.undernav{
+	position:absolute;
+	top:259px;
+	left:0px;
+	padding:20px;
+	width:300px;
+	background-color:black;
+}
+.undernav h2{
+	letter-spacing:1px;
+	font-size:30px;
+	font-family:impact;
+	text-align:left;
+	color:white;
+}
+.undernav p{
+	letter-spacing: 1px;
+	font-size:20px;
+	font-family:impact;
+	font-style:italic;
+	line-height:25px;
+	text-align:left;
+	color:white;
+}
+.artsandletters{
+	width:400px;
+	position:absolute;
+	right:90px;
+	top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	padding:20px;
+	background-color:black;
+	opacity:0.8;
+}
+.artsandletters h2{
+	text-align:center;
+	font-family:times;
+	font-size:30px;
+	color:white;
+}
+.artsandletters h2 a{
+	text-decoration:none;
+	color:white;
+	font-size:30px;
+	font-family:courier;
+}
+.artsandletters h2 a:hover{
+	color:#cce6ff;
+}
+.artsandletters p{
+	color:white;
+	font-size:15px;
+	font-family:courier;
+	text-align:left;
+	line-height:30px;
+}
+.artsandletters p a{
+	font-size:15px;
+	text-decoration:none;
+	color:#cce6ff;
+}
+.artsandletters p a:hover{
+	color:#cce6ff;
+	text-decoration:underline;
+}
+.ntbackground{
+	width:100%;
+	height:100%;
+	background-image:url("justin.jpg");
+	background-size:cover;
+	top:720px;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+.neshamatherapy{
+	width:400px;
+	position:absolute;
+	left:70px;
+	top:950px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	opacity:0.8;
+	padding:20px;
+	opacity:0.8;
+	margin-bottom:200px;
+}
+.neshamatherapy h2{
+	text-align:center;
+	color:white;
+	font-size:30px;
+	font-family:times;
+}
+.neshamatherapy h2 a{
+	text-decoration:none;
+	color:white;
+	font-size:30px;
+	font-family:courier;
+}
+.neshamatherapy h2 a:hover{
+	color:#cce6ff;
+}
+.neshamatherapy p{
+	color:white;
+	font-size:15px;
+	font-family:courier;
+	text-align:left;
+	line-height:30px;
+}
+.backgroundone{
+	width:100%;
+	height:100%;
+	background-image:url("photoshop.jpg");
+	background-size:cover;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	top:720px;
+	position:absolute;
+}
+.pride{
+	width:400px;
+	position:absolute;
+	right:90px;
+	top:1770px;
+	margin-left:auto;
+	margin-right:auto;
+	opacity:0.8;
+	padding:20px;
+}
+.pride h2{
+	text-align:center;
+	color:white;
+	font-size:30px;
+	font-family:times;
+}
+.pride h2 a{
+	text-decoration:none;
+	color:white;
+	font-size:30px;
+	font-family:courier;
+}
+.pride h2 a:hover{
+	color:#cce6ff;
+}
+.pride p{
+	color:white;
+	font-size:15px;
+	font-family:courier;
+	text-align:left;
+	line-height:30px;
+}
+.background{
+	width:100%;
+	height:100%;
+	background-image:url("office.jpg");
+	background-size:cover;
+	top:1460px;
+	position:absolute;
+}
+.city{
+	width:400px;
+	position:absolute;
+	right:90px;
+	top:2200px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	opacity:1;
+	padding:20px;
+}
+.city h2{
+	text-align:center;
+}
+.city h2 a{
+	text-decoration:none;
+	color:white;
+	font-size:30px;
+	font-family:courier;
+}
+.city h2 a:hover{
+	color:#cce6ff;
+}
+.city p{
+	color:white;
+	font-size:15px;
+	font-family:courier;
+	text-align:left;
+	line-height:30px;
+}
+.backgroundthree{
+	width:100%;
+	height:100%;
+	background-image:url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-276316.jpg");
+	background-size:cover;
+	top:2880px;
+	position:absolute;
+}
+.pusateri{
+	width:400px;
+	position:absolute;
+	right:90px;
+	top:2920px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	opacity:1;
+	padding:20px;
+}
+.pusateri h2{
+	text-align:center;
+}
+.pusateri h2 a{
+	text-decoration:none;
+	color:black;
+	font-size:30px;
+	font-family:courier;
+}
+.pusateri h2 a:hover{
+	color:#cce6ff;
+}
+.pusateri p{
+	color:black;
+	font-size:15px;
+	font-family:courier;
+	text-align:left;
+	line-height:30px;
+}
