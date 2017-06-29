@@ -48,7 +48,7 @@ nav ul li a:hover{
 	}
 .undernav{
 	position:absolute;
-	top:259px;
+	top:auto;
 	left:0px;
 	padding:20px;
 	width:300px;
