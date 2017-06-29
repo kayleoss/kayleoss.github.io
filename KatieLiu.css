@@ -7,7 +7,7 @@ body{
 	background-size:contain;
 	background-repeat:repeat-x;
 	width:100%;
-	height:100px;
+	height:100%;
 }
 h1 a{
 	font-family:impact;
@@ -47,7 +47,8 @@ p{
 	height:auto;
 	right:0px;
 	top:0px;
-	bottom:0;
+	bottom:0px;
+	margin-bottom:auto;
 	margin-left:auto;
 	margin-right:auto;
 	padding:10px 10px;
