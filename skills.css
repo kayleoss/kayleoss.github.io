@@ -5,8 +5,8 @@
 body{
 
 	background-image:url("program.jpg");
-	background-width:100%;
-	background-height:100%;
+	width:auto;
+	height:auto;
 	background-position:right bottom;
 	background-repeat:no-repeat;
 	background-color:black;
