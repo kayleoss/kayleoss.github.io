@@ -26,9 +26,9 @@ h1 a:hover{
 
 }
 .titlecontainer{
-	width:300px;
+	width:24%;
 	background-color:#cce6ff;
-	left:0px;
+	left:0%;
 	padding:20px;
 	opacity:0.75;
 }
@@ -49,9 +49,9 @@ nav ul li a:hover{
 .undernav{
 	position:absolute;
 	top:auto;
-	left:0px;
+	left:0%;
 	padding:20px;
-	width:300px;
+	width:24%;
 	background-color:black;
 }
 .undernav h2{
@@ -71,10 +71,10 @@ nav ul li a:hover{
 	color:white;
 }
 .artsandletters{
-	width:400px;
+	width:25%;
 	position:absolute;
-	right:90px;
-	top:100px;
+	right:4%;
+	top:7%;
 	margin-left:auto;
 	margin-right:auto;
 	height:auto;
@@ -123,17 +123,15 @@ nav ul li a:hover{
 	position:absolute;
 }
 .neshamatherapy{
-	width:400px;
+	width:28%;
 	position:absolute;
-	left:70px;
-	top:950px;
+	left:7%;
+	top:139%;
 	margin-left:auto;
 	margin-right:auto;
 	height:auto;
 	opacity:0.8;
 	padding:20px;
-	opacity:0.8;
-	margin-bottom:200px;
 }
 .neshamatherapy h2{
 	text-align:center;
@@ -164,14 +162,14 @@ nav ul li a:hover{
 	background-size:cover;
 	background-position:center bottom;
 	background-repeat:no-repeat;
-	top:720px;
+	top:106%;
 	position:absolute;
 }
 .pride{
-	width:400px;
+	width:26%;
 	position:absolute;
 	right:90px;
-	top:1770px;
+	top:210%;
 	margin-left:auto;
 	margin-right:auto;
 	opacity:0.8;
@@ -204,14 +202,14 @@ nav ul li a:hover{
 	height:100%;
 	background-image:url("office.jpg");
 	background-size:cover;
-	top:1460px;
+	top:206%;
 	position:absolute;
 }
 .city{
-	width:400px;
+	width:28%;
 	position:absolute;
-	right:90px;
-	top:2200px;
+	right:9%;
+	top:212%;
 	margin-left:auto;
 	margin-right:auto;
 	height:auto;
