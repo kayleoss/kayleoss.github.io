@@ -8,10 +8,11 @@ body{
 	background-repeat:repeat-x;
 	width:auto;
 	height:auto;
+	font-size:13px;
 }
 h1 a{
 	font-family:impact;
-	font-size:80px;
+	font-size:250%;
 	text-align:left;
 	text-decoration:none;
 	color:black;
@@ -24,7 +25,7 @@ h1 a:hover{
 	width:24%;
 	background-color:#cce6ff;
 	left:0%;
-	padding:20px;
+	padding:1%;
 	opacity:0.75;
 }
 nav ul{
@@ -34,8 +35,8 @@ nav ul li a{
 	text-decoration:none;
 	list-style:none;
 	font-family:impact;
-	font-size:30px;
-	line-height:30px;
+	font-size:220%;
+	line-height:1;
 	color:black;
 	}
 nav ul li a:hover{
@@ -43,18 +44,19 @@ nav ul li a:hover{
 	}
 p{
 	background-color:black;
-	width:22%;
+	width:20%;
 	right:0%;
 	top:0%;
 	bottom:0%;
 	margin-left:auto;
 	margin-right:auto;
-	padding:10px 10px;
+	margin-bottom:0%;
+	padding:1% 1%;
 	color:white;
 	font-family:courier;
 	position:absolute;
-	font-size:16px;
-	line-height:20px;
+	font-size:120%;
+	line-height:1.5;
 	text-align:left;
 	opacity:0.8;
 }
