@@ -168,11 +168,10 @@ nav ul li a:hover{
 .pride{
 	width:26%;
 	position:absolute;
-	right:90px;
-	top:210%;
+	right:13%;
+	top:243%;
 	margin-left:auto;
 	margin-right:auto;
-	opacity:0.8;
 	padding:20px;
 }
 .pride h2{
