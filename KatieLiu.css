@@ -21,9 +21,9 @@ h1 a:hover{
 
 }
 .titlecontainer{
-	width:300px;
+	width:24%;
 	background-color:#cce6ff;
-	left:0px;
+	left:0%;
 	padding:20px;
 	opacity:0.75;
 }
@@ -43,10 +43,10 @@ nav ul li a:hover{
 	}
 p{
 	background-color:black;
-	width:240px;
-	right:0px;
-	top:0px;
-	bottom:0px;
+	width:22%;
+	right:0%;
+	top:0%;
+	bottom:0%;
 	margin-left:auto;
 	margin-right:auto;
 	padding:10px 10px;
