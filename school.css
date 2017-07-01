@@ -9,13 +9,14 @@ body{
 	width:auto
 	height:auto;
 	background-color:black;
+	font-size:13px;
 }
 body, html{
 	height:100%;
 }
 h1 a{
 	font-family:impact;
-	font-size:80px;
+	font-size:250%;
 	text-align:left;
 	text-decoration:none;
 	color:black;
@@ -28,7 +29,7 @@ h1 a:hover{
 	width:24%;
 	background-color:#cce6ff;
 	left:0%;
-	padding:20px;
+	padding:1%;
 	opacity:0.75;
 }
 nav ul{
@@ -38,15 +39,15 @@ nav ul li a{
 	text-decoration:none;
 	list-style:none;
 	font-family:impact;
-	font-size:30px;
-	line-height:30px;
+	font-size:220%;
+	line-height:1;
 	color:black;
 	}
 nav ul li a:hover{
 	color:#004080;
 	}
 .artsandletters{
-	width:24%;
+	width:20%;
 	height:100%;
 	position:absolute;
 	right:0%;
@@ -55,9 +56,9 @@ nav ul li a:hover{
 	margin-left:auto;
 	margin-right:auto;
 	height:auto;
-	padding:20px;
+	padding:1%;
 	background-color:white;
-	opacity:0.85;
+	opacity:0.9;
 }
 .artsandletters h2{
 	text-align:left;
@@ -65,7 +66,7 @@ nav ul li a:hover{
 .artsandletters h2 a{
 	text-decoration:none;
 	color:black;
-	font-size:35px;
+	font-size:110%;
 	font-family:courier;
 }
 .artsandletters h2 a:hover{
@@ -73,10 +74,11 @@ nav ul li a:hover{
 }
 .artsandletters p{
 	color:black;
-	font-size:16px;
+	font-size:100%;
 	font-family:courier;
 	text-align:left;
-	line-height:30px;
+	line-height:1.4;
+	margin-top:4%;
 }
 
 .city{
