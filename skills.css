@@ -275,6 +275,7 @@ html{
 body{
 		width:auto;
 		height:auto;
+		font-size:15px;
 	}
 	.titlecontainer{
 		width:auto;
@@ -297,7 +298,7 @@ body{
 		width:auto;
 	}
 	nav ul li a{
-		font-size:1.5rem;
+		font-size:1.5em;
 		text-align:center;
 	}
 	.undernav{
@@ -309,11 +310,11 @@ body{
 	}
 	.undernav h2{
 		font-family:times;
-		font-size:1.5rem;
+		font-size:1.5em;
 		text-align:center;
 	}
 	.undernav p{
-		font-size:1rem;
+		font-size:1em;
 		font-family:garamond;
 		font-style:normal;
 	}
@@ -325,10 +326,10 @@ body{
 		position:relative;
 	}
 	.artsandletters h2{
-		font-size:1rem;
+		font-size:1em;
 	}
 	.artsandletters p{
-		font-size:0.9rem;
+		font-size:0.9em;
 	}
 	.ntbackground{
 		top:135%;
@@ -342,10 +343,10 @@ body{
 		opacity:1;
 	}
 	.neshamatherapy h2{
-		font-size:1rem;
+		font-size:1em;
 	}
 	.neshamatherapy p{
-		font-size:0.9rem;
+		font-size:0.9em;
 	}
 	.backgroundone{
 		top:105%;
@@ -358,10 +359,10 @@ body{
 		top:252%;
 	}
 	.pride h2{
-		font-size:1rem;
+		font-size:1em;
 	}
 	.pride p{
-		font-size:0.9rem;
+		font-size:0.9em;
 	}
 	.background{
 		top:215%;
@@ -375,10 +376,10 @@ body{
 		top:360%;
 	}
 	.city h2{
-		font-size:1rem;
+		font-size:1em;
 	}
 	.city p{
-		font-size:0.9rem;
+		font-size:0.9em;
 	}
 	.backgroundthree{
 		top:450%;
@@ -391,8 +392,8 @@ body{
 		top:460%;
 	}
 	.pusateri h2{
-		font-size:1rem;
+		font-size:1em;
 	}
 	.pusateri p{
-		font-size:0.9rem;
+		font-size:0.9em;
 	}

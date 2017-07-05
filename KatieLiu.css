@@ -61,11 +61,14 @@ p{
 	opacity:0.8;
 }
 @media only screen and (max-width:480px),(orientation:portrait){
+	html{
+		font-size:15px;
+	}
 	body{
 		background-image:url("https://4wnu5a-bn1305.files.1drv.com/y4m6XOppvtdqYxq6xNRZR9859bR2QKP9sfNckduyzBW5iZIKp1d0pfOl581rUKf9bMT7aYUGXMVadnMSgcVhWefYh8rotiwQaZjL6lalDdw7eoU5_3KXSKcDTAhUVGjR_1aRwilzinnd7vXOyEwEENJWKYYwQuGvBRo_t0xZPNMPkTrL01XdB3sgfFnBvKT_DrTWugC3aKd38Dk6HWOYKnjNQ?width=660&height=440&cropmode=none");
 		background-size:cover;
 		background-position:left bottom;
-		font-size:10px;
+		font-size:15px;
 		width:auto;
 		height:auto;
 	}
@@ -84,13 +87,13 @@ p{
 		width:auto;
 	}
 	nav ul li a{
-		font-size:1.5rem;
+		font-size:1.5em;
 		text-align:center;
 	}
 	p{
 		font-family:times;
 		background:none;
-		font-size:0.95rem;
+		font-size:0.95em;
 		position:relative;
 		width:80%;
 		opacity:0.75;
