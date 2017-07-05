@@ -177,16 +177,19 @@ nav ul li a:hover{
 	}
 	.artsandletters{
 		position:relative;
-		width:auto;
+		width:90%;
 		height:auto;
 		margin-top:10%;
 		opacity:0.8;
 	}
 	.artsandletters h2{
 		text-align:center;
+	}
+	.artsandletters h2 a{
+		font-family:times;
 		font-size:1.5rem;
 	}
 	.artsandletters p{
 		font-size:0.95rem;
-		font-weight:bold;
+		font-family:times;
 	}
