@@ -269,8 +269,10 @@ nav ul li a:hover{
 	line-height:30px;
 }
 @media only screen and (max-width:480px),(orientation:portrait){
+html{
+	font-size:15px;
+}
 body{
-		font-size:10px;
 		width:auto;
 		height:auto;
 	}

@@ -93,12 +93,12 @@ p{
 		font-size:0.95rem;
 		position:relative;
 		width:80%;
-		opacity:1;
-		font-weight:bold;
+		opacity:0.75;
 		margin-left:auto;
 		margin-right:auto;
 		height:auto;
 		margin-top:5%;
 		margin-bottom:5%;
+		background-color:black;
 
 	}
