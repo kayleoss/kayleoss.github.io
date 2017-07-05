@@ -268,3 +268,129 @@ nav ul li a:hover{
 	text-align:left;
 	line-height:30px;
 }
+@media only screen and (max-width:480px),(orientation:portrait){
+body{
+		font-size:10px;
+		width:auto;
+		height:auto;
+	}
+	.titlecontainer{
+		width:auto;
+		position:relative;
+		margin:auto;
+		overflow:hidden;
+		text-align:center;
+	}
+	.firstbackground{
+		background-image:url("artsandletters.jpg");
+		background-position:left bottom;
+		position:absolute;
+		top:30%;
+	}
+	h1 a{
+		font-size:150%;
+		text-align:center;
+	}
+	nav{
+		width:auto;
+	}
+	nav ul li a{
+		font-size:1.5rem;
+		text-align:center;
+	}
+	.undernav{
+		position:relative;
+		margin:auto;
+		width:auto;
+		opacity:0.9;
+		padding:2%;
+	}
+	.undernav h2{
+		font-family:times;
+		font-size:1.5rem;
+		text-align:center;
+	}
+	.undernav p{
+		font-size:1rem;
+		font-family:garamond;
+		font-style:normal;
+	}
+	.artsandletters{
+		width:90%;
+		margin-top:10%;
+		padding:0;
+		left:0;
+		position:relative;
+	}
+	.artsandletters h2{
+		font-size:1rem;
+	}
+	.artsandletters p{
+		font-size:0.9rem;
+	}
+	.ntbackground{
+		top:135%;
+	}
+	.neshamatherapy{
+		width:90%;
+		margin:auto;
+		padding:0;
+		left:5%;
+		top:152%;
+		opacity:1;
+	}
+	.neshamatherapy h2{
+		font-size:1rem;
+	}
+	.neshamatherapy p{
+		font-size:0.9rem;
+	}
+	.backgroundone{
+		top:105%;
+	}
+	.pride{
+		width:90%;
+		margin:auto;
+		padding:0;
+		left:5%;
+		top:252%;
+	}
+	.pride h2{
+		font-size:1rem;
+	}
+	.pride p{
+		font-size:0.9rem;
+	}
+	.background{
+		top:215%;
+		background-position:right bottom;
+	}
+	.city{
+		width:90%;
+		margin:auto;
+		padding:0;
+		left:2%;
+		top:360%;
+	}
+	.city h2{
+		font-size:1rem;
+	}
+	.city p{
+		font-size:0.9rem;
+	}
+	.backgroundthree{
+		top:450%;
+	}
+	.pusateri{
+		width:90%;
+		margin:auto;
+		padding:0;
+		left:2%;
+		top:460%;
+	}
+	.pusateri h2{
+		font-size:1rem;
+	}
+	.pusateri p{
+		font-size:0.9rem;
+	}

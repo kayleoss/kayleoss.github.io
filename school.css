@@ -149,3 +149,44 @@ nav ul li a:hover{
 	text-align:left;
 	line-height:30px;
 }
+@media only screen and (max-width:480px),(orientation:portrait){
+	body{
+		font-size:10px;
+	}
+	.background{
+		background-position:center top;
+		background-size:cover;
+	}
+	.titlecontainer{
+		width:auto;
+		position:relative;
+		margin:auto;
+		overflow:hidden;
+		text-align:center;
+	}
+	h1 a{
+		font-size:150%;
+		text-align:center;
+	}
+	nav{
+		width:auto;
+	}
+	nav ul li a{
+		font-size:1.5rem;
+		text-align:center;
+	}
+	.artsandletters{
+		position:relative;
+		width:auto;
+		height:auto;
+		margin-top:10%;
+		opacity:0.8;
+	}
+	.artsandletters h2{
+		text-align:center;
+		font-size:1.5rem;
+	}
+	.artsandletters p{
+		font-size:0.95rem;
+		font-weight:bold;
+	}
