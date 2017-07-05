@@ -144,9 +144,9 @@ nav ul li a:hover{
 .backgroundone{
 	width:100%;
 	height:100%;
-	background-image:url("justin.jpg");
+	background-image:url("pride.jpg");
 	background-size:cover;
-	background-position:center center;
+	background-position:center top;
 	background-repeat:no-repeat;
 	top:212%;
 	position:absolute;
@@ -155,8 +155,8 @@ nav ul li a:hover{
 .pride{
 	width:28%;
 	position:absolute;
-	left:3%;
-	top:260%;
+	right:3%;
+	top:240%;
 	margin-left:auto;
 	margin-right:auto;
 	opacity:1;
@@ -328,7 +328,7 @@ body{
 		width:90%;
 		margin:auto;
 		padding:0;
-		left:0;
+		left:5%;
 		top:142%;
 	}
 	.neshamatherapy h2{
@@ -344,8 +344,8 @@ body{
 		width:90%;
 		margin:auto;
 		padding:0;
-		left:2%;
-		top:252%;
+		left:5%;
+		top:292%;
 	}
 	.pride h2{
 		font-size:1rem;
@@ -361,7 +361,7 @@ body{
 		width:90%;
 		margin:auto;
 		padding:0;
-		left:2%;
+		left:5%;
 		top:360%;
 	}
 	.city h2{
