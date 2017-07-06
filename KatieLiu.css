@@ -66,8 +66,6 @@ p{
 		background-size:cover;
 		background-position:left bottom;
 		font-size:13px;
-		width:auto;
-		height:auto;
 	}
 	.titlecontainer{
 		width:auto;
@@ -90,11 +88,10 @@ p{
 	p{
 		font-family:times;
 		background:none;
-		font-size:0.95rem;
+		font-size:1rem;
 		position:relative;
 		width:80%;
 		opacity:1;
-		font-weight:bold;
 		margin-left:auto;
 		margin-right:auto;
 		height:auto;

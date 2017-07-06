@@ -262,8 +262,6 @@ nav ul li a:hover{
 @media only screen and (max-width:480px),(orientation:portrait){
 body{
 		font-size:13px;
-		width:auto;
-		height:auto;
 	}
 	.titlecontainer{
 		width:auto;
@@ -309,9 +307,8 @@ body{
 	.artsandletters{
 		width:90%;
 		margin-top:10%;
-		padding:0;
-		left:0;
-		position:relative;
+		left:5%;
+		top:60%;
 	}
 	.artsandletters h2{
 		font-size:1rem;
@@ -324,9 +321,8 @@ body{
 	}
 	.neshamatherapy{
 		width:90%;
-		margin:auto;
 		padding:0;
-		left:0;
+		left:5%;
 		top:142%;
 	}
 	.neshamatherapy h2{
@@ -340,9 +336,8 @@ body{
 	}
 	.pride{
 		width:90%;
-		margin:auto;
 		padding:0;
-		left:2%;
+		left:5%;
 		top:252%;
 	}
 	.pride h2{
@@ -357,9 +352,8 @@ body{
 	}
 	.city{
 		width:90%;
-		margin:auto;
 		padding:0;
-		left:2%;
+		left:5%;
 		top:360%;
 	}
 	.city h2{
@@ -373,9 +367,8 @@ body{
 	}
 	.pusateri{
 		width:90%;
-		margin:auto;
 		padding:0;
-		left:2%;
+		left:5%;
 		top:460%;
 	}
 	.pusateri h2{

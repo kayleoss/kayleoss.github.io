@@ -271,8 +271,10 @@ nav ul li a:hover{
 @media only screen and (max-width:480px),(orientation:portrait){
 body{
 		font-size:13px;
-		width:auto;
-		height:auto;
+	}
+	.bb{
+		background-size:cover;
+		top:30%;
 	}
 	.titlecontainer{
 		width:auto;
@@ -318,9 +320,9 @@ body{
 	.artsandletters{
 		width:90%;
 		margin-top:10%;
-		padding:0;
-		left:0;
-		position:relative;
+		left:5%;
+		top:50%;
+		opacity:0.6;
 	}
 	.artsandletters h2{
 		font-size:1rem;
@@ -346,7 +348,7 @@ body{
 		font-size:0.9rem;
 	}
 	.backgroundone{
-		top:105%;
+		top:115%;
 	}
 	.pride{
 		width:90%;
