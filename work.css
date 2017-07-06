@@ -144,9 +144,9 @@ nav ul li a:hover{
 .backgroundone{
 	width:100%;
 	height:100%;
-	background-image:url("pride.jpg");
+	background-image:url("justin.jpg");
 	background-size:cover;
-	background-position:center top;
+	background-position:center center;
 	background-repeat:no-repeat;
 	top:212%;
 	position:absolute;
@@ -155,8 +155,8 @@ nav ul li a:hover{
 .pride{
 	width:28%;
 	position:absolute;
-	right:3%;
-	top:240%;
+	left:3%;
+	top:260%;
 	margin-left:auto;
 	margin-right:auto;
 	opacity:1;
@@ -260,13 +260,10 @@ nav ul li a:hover{
 	line-height:1.3;
 }
 @media only screen and (max-width:480px),(orientation:portrait){
-html{
-	font-size:15px;
-}
 body{
+		font-size:13px;
 		width:auto;
 		height:auto;
-		font-size:15px;
 	}
 	.titlecontainer{
 		width:auto;
@@ -289,7 +286,7 @@ body{
 		width:auto;
 	}
 	nav ul li a{
-		font-size:1.5em;
+		font-size:1.5rem;
 		text-align:center;
 	}
 	.undernav{
@@ -301,11 +298,11 @@ body{
 	}
 	.undernav h2{
 		font-family:times;
-		font-size:1.5em;
+		font-size:1.5rem;
 		text-align:center;
 	}
 	.undernav p{
-		font-size:1em;
+		font-size:1rem;
 		font-family:garamond;
 		font-style:normal;
 	}
@@ -317,10 +314,10 @@ body{
 		position:relative;
 	}
 	.artsandletters h2{
-		font-size:1em;
+		font-size:1rem;
 	}
 	.artsandletters p{
-		font-size:0.9em;
+		font-size:0.9rem;
 	}
 	.ntbackground{
 		top:135%;
@@ -329,14 +326,14 @@ body{
 		width:90%;
 		margin:auto;
 		padding:0;
-		left:5%;
+		left:0;
 		top:142%;
 	}
 	.neshamatherapy h2{
-		font-size:1em;
+		font-size:1rem;
 	}
 	.neshamatherapy p{
-		font-size:0.9em;
+		font-size:0.9rem;
 	}
 	.backgroundone{
 		top:240%;
@@ -345,14 +342,14 @@ body{
 		width:90%;
 		margin:auto;
 		padding:0;
-		left:5%;
-		top:292%;
+		left:2%;
+		top:252%;
 	}
 	.pride h2{
-		font-size:1em;
+		font-size:1rem;
 	}
 	.pride p{
-		font-size:0.9em;
+		font-size:0.9rem;
 	}
 	.background{
 		top:345%;
@@ -362,14 +359,14 @@ body{
 		width:90%;
 		margin:auto;
 		padding:0;
-		left:5%;
+		left:2%;
 		top:360%;
 	}
 	.city h2{
-		font-size:1em;
+		font-size:1rem;
 	}
 	.city p{
-		font-size:0.9em;
+		font-size:0.9rem;
 	}
 	.backgroundthree{
 		top:450%;
@@ -382,8 +379,8 @@ body{
 		top:460%;
 	}
 	.pusateri h2{
-		font-size:1em;
+		font-size:1rem;
 	}
 	.pusateri p{
-		font-size:0.9em;
+		font-size:0.9rem;
 	}
