@@ -307,8 +307,9 @@ body{
 	.artsandletters{
 		width:90%;
 		margin-top:10%;
-		left:5%;
 		top:60%;
+		left:2%;
+		position:relative;
 	}
 	.artsandletters h2{
 		font-size:1rem;
@@ -322,8 +323,9 @@ body{
 	.neshamatherapy{
 		width:90%;
 		padding:0;
-		left:5%;
-		top:142%;
+		margin-top:62%;
+		left:2%;
+		position:relative;
 	}
 	.neshamatherapy h2{
 		font-size:1rem;
@@ -333,12 +335,14 @@ body{
 	}
 	.backgroundone{
 		top:240%;
+		background-image:url("pride.jpg");
 	}
 	.pride{
 		width:90%;
 		padding:0;
-		left:5%;
-		top:252%;
+		margin-top:122%;
+		left:2%;
+		position:relative;
 	}
 	.pride h2{
 		font-size:1rem;
@@ -353,8 +357,9 @@ body{
 	.city{
 		width:90%;
 		padding:0;
-		left:5%;
-		top:360%;
+		margin-top:102%;
+		left:2%;
+		position:relative;
 	}
 	.city h2{
 		font-size:1rem;
@@ -368,8 +373,9 @@ body{
 	.pusateri{
 		width:90%;
 		padding:0;
-		left:5%;
-		top:460%;
+		margin-top:92%;
+		left:2%;
+		position:relative;
 	}
 	.pusateri h2{
 		font-size:1rem;
