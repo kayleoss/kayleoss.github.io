@@ -150,11 +150,8 @@ nav ul li a:hover{
 	line-height:30px;
 }
 @media only screen and (max-width:480px),(orientation:portrait){
-	html{
-		font-size:15px;
-	}
 	body{
-		font-size:15px;
+		font-size:13px;
 	}
 	.background{
 		background-position:center top;
@@ -175,24 +172,21 @@ nav ul li a:hover{
 		width:auto;
 	}
 	nav ul li a{
-		font-size:1.5em;
+		font-size:1.5rem;
 		text-align:center;
 	}
 	.artsandletters{
 		position:relative;
-		width:90%;
+		width:auto;
 		height:auto;
 		margin-top:10%;
 		opacity:0.8;
 	}
 	.artsandletters h2{
 		text-align:center;
-	}
-	.artsandletters h2 a{
-		font-family:times;
-		font-size:1.5em;
+		font-size:1.5rem;
 	}
 	.artsandletters p{
-		font-size:0.95em;
-		font-family:times;
+		font-size:0.95rem;
+		font-weight:bold;
 	}
