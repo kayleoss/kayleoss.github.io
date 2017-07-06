@@ -320,9 +320,10 @@ body{
 	.artsandletters{
 		width:90%;
 		margin-top:10%;
-		left:5%;
 		top:50%;
-		opacity:0.6;
+		left:0.3%;
+		opacity:0.8;
+		position:relative;
 	}
 	.artsandletters h2{
 		font-size:1rem;
@@ -335,11 +336,10 @@ body{
 	}
 	.neshamatherapy{
 		width:90%;
-		margin:auto;
-		padding:0;
-		left:5%;
-		top:152%;
+		margin-top:100%;
+		left:0.3%;
 		opacity:1;
+		position:relative;
 	}
 	.neshamatherapy h2{
 		font-size:1rem;
@@ -352,10 +352,10 @@ body{
 	}
 	.pride{
 		width:90%;
-		margin:auto;
-		padding:0;
-		left:5%;
-		top:252%;
+		margin-top:60%;
+		left:0.3%;
+		opacity:1;
+		position:relative;
 	}
 	.pride h2{
 		font-size:1rem;
