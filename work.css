@@ -278,12 +278,14 @@ body{
 	}
 	h1 a{
 		font-size:150%;
+		font-family:impact;
 		text-align:center;
 	}
 	nav{
 		width:auto;
 	}
 	nav ul li a{
+		font-family:impact;
 		font-size:1.5rem;
 		text-align:center;
 	}
@@ -310,9 +312,14 @@ body{
 		top:60%;
 		left:2%;
 		position:relative;
+		background-color:black;
+		opacity:0.65;
+	}
+	.artsandletters h2 a{
+		font-size:1.5rem;
 	}
 	.artsandletters h2{
-		font-size:1rem;
+		text-align:center;
 	}
 	.artsandletters p{
 		font-size:0.9rem;
@@ -326,9 +333,11 @@ body{
 		margin-top:62%;
 		left:2%;
 		position:relative;
+		background-color:white;
+		opacity:0.65;
 	}
-	.neshamatherapy h2{
-		font-size:1rem;
+	.neshamatherapy h2 a{
+		font-size:1.5rem;
 	}
 	.neshamatherapy p{
 		font-size:0.9rem;
@@ -343,11 +352,15 @@ body{
 		margin-top:122%;
 		left:2%;
 		position:relative;
+		background-color:#3a4731;
+		opacity:0.75;
 	}
-	.pride h2{
-		font-size:1rem;
+	.pride h2 a{
+		color:white;
+		font-size:1.5rem;
 	}
 	.pride p{
+		color:white;
 		font-size:0.9rem;
 	}
 	.background{
@@ -357,12 +370,14 @@ body{
 	.city{
 		width:90%;
 		padding:0;
-		margin-top:102%;
+		margin-top:92%;
 		left:2%;
 		position:relative;
+		background-color:#0a3147;
+		opacity:0.65;
 	}
-	.city h2{
-		font-size:1rem;
+	.city h2 a{
+		font-size:1.5rem;
 	}
 	.city p{
 		font-size:0.9rem;
@@ -376,6 +391,8 @@ body{
 		margin-top:92%;
 		left:2%;
 		position:relative;
+		background-color:#f1f79e;
+		opacity:0.65;
 	}
 	.pusateri h2{
 		font-size:1rem;
