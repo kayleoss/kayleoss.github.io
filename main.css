@@ -11,7 +11,7 @@ body{
 }
 .hidden{
     width:50%;
-    height:100vw;
+    height:120vw;
     left:0px;
     right:0px;
     margin:auto;
@@ -55,7 +55,7 @@ body{
 .projects,
 .reply,
 .last{
-    width:35%;
+    width:40%;
     background-color: #d2d5db;
     text-align:left;
     border:solid 1px white;
@@ -82,7 +82,7 @@ body{
     text-decoration:none;
     font-size:1em;
     color: black;
-    padding:3% 10%;
+    padding:3% 11%;
 }
 .send {
     width:10%;
