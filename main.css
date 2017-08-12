@@ -154,13 +154,11 @@ body{
 #facebook:hover , #twitter:hover, #insta:hover, #email:hover{
     opacity:0.5;
 }
-#facebook:active,
-#twitter:active,
-#insta:active;
-#email:active{
-    background-color:white;
-}
-@media only screen and (max-width:480px){
+
+@media only screen and (max-width:480px),(orientation:portrait){
+    #nav ul li{
+        font-size:1.2em;
+    }
     #head{
         width:100%;
     }
@@ -184,7 +182,7 @@ body{
         width:15%;
 }
     #support{
-        margin-top:25%;
+        margin-top:20%;
     }
     #support p{
         font-size:1.3em;
