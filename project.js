@@ -1,4 +1,4 @@
-function main(){
+window.onload = function main(){
     $('.hide').hide();
     $('.hide').show();
     $('#bravoimg').hide();
@@ -24,5 +24,3 @@ function main(){
 
 
 
-
-$('document').ready(main);
