@@ -2,7 +2,7 @@ var back = document.getElementById('back');
 var head = document.getElementById('head');
 var headp = document.getElementById('headp');
 var position= 100;
-function main(){
+window.onload = function main(){
     $('#hidden').hide();
     $('#hidden').show();
     $('.mediaicons').hide();
@@ -33,4 +33,4 @@ function main(){
 
      
 
-$('document').ready(main);
+
