@@ -154,6 +154,18 @@ body{
 #facebook:hover , #twitter:hover, #insta:hover, #email:hover{
     opacity:0.5;
 }
+#footer{
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    
+    text-align:right;
+}
+#footer p{
+    font-size:1em;
+    color:grey;
+    padding:0% 2%;
+}
 
 @media only screen and (max-width:480px),(orientation:portrait){
     #nav ul li{
