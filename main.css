@@ -160,3 +160,44 @@ body{
 #email:active{
     background-color:white;
 }
+@media only screen and (max-width:480px){
+    #head{
+        width:100%;
+    }
+    #head h1{
+        font-size:3em;
+        color:black;
+    }
+    #head h1:hover{
+        font-size:3.1em;
+    }
+    #head p{
+        font-size:1.3em;
+    }
+    .mediaicons{
+        width:60%;
+    }
+    #facebook,
+    #twitter,
+    #insta,
+    #email{
+        width:15%;
+}
+    #support{
+        margin-top:25%;
+    }
+    #support p{
+        font-size:1.3em;
+    }
+    #support2 p{
+        font-size:1.3em;
+    }
+    
+    
+}
+@media only screen and (min-width:1281px){
+    #backgrounder{
+        background-image: url('fullres.jpg');
+        height:150vw;
+    }
+}
