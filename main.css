@@ -202,12 +202,17 @@ body{
     #support2 p{
         font-size:1.3em;
     }
+    #footer p{
+        font-size:0.7em;
+    }
     
     
 }
 @media only screen and (min-width:1281px){
     #backgrounder{
         background-image: url('fullres.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
         height:150vw;
     }
 }
