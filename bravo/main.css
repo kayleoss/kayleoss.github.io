@@ -158,6 +158,9 @@ iframe{
 .coftwo{
 	display:none;
 }
+.coftwoimg{
+	display:none;
+}
 
 @media only screen and (max-width:480px), (orientation:portrait){
 	body{
@@ -219,6 +222,7 @@ iframe{
 	}
 	.coftwoimg{
 		width:100%;
+		display:unset;
 	}
 	.coftwoimg img{
 		width:100%;
