@@ -102,7 +102,7 @@ body{
     background-image: url('backgrounder.jpg');
     background-repeat: repeat;
 }
-#bravoimg, #resumeimg, #bravoweb, #blogger, #game, #text{
+#tales, #bravoimg, #resumeimg, #bravoweb, #blogger, #game, #text{
     width:50%;
     position:relative;
     left:0px;
@@ -111,12 +111,13 @@ body{
     margin-top:2%;
     text-align:center;
 }
-#bravoimg img , #resumeimg img, #blogger img, #game img, #text img{
+#bravoimg img , #resumeimg img, #blogger img, #game img, #text img, #tales img{
     margin-top:6%;
     width:100%;
     border:solid 1px black;
     border-radius:35px;
 }
+#tales img:hover,
 #bravoimg img:hover,
 #resumeimg img:hover,
 #blogger img:hover,
@@ -213,6 +214,9 @@ body{
         background-image: url('fullres.jpg');
         background-repeat:no-repeat;
         background-size:cover;
-        height:150vw;
+        height:200vw;
+    }
+    #tales, #bravoimg, #resumeimg, #bravoweb, #blogger, #game, #text{
+        width:30%;
     }
 }

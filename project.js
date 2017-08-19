@@ -5,6 +5,9 @@ window.onload = function main(){
     $('#resumeimg').hide();
     $("#game").hide();
     $('#text').hide();
+    $('#tales').hide();
+    $('#tales').delay(500);
+    $('#tales').fadeIn(1000);
     $('#blogger').hide();
     $('#bravoimg').delay(500);
     $('#bravoimg').fadeIn(1000);
