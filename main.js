@@ -34,7 +34,7 @@ window.onload = function (){
         burgerImage[slideIndex-1].style.display = "block";
         setTimeout(burger, 250);
     }
-    $('#foodOne').on('click',() => {
+    $('.hamburger').on('click',() => {
         drink();
         $('#intro').fadeOut(1000);
         $('#foodOne').fadeOut(1000);
@@ -50,7 +50,7 @@ window.onload = function (){
         drinkImg[slideIndex2-1].style.display = "block";
         setTimeout(drink, 250);
     }
-    $('#foodTwo').on('click',() => { 
+    $('.drink').on('click',() => { 
         pizza();
         $('#foodTwo').fadeOut(1000);
         $('#foodThree').delay(1000);
@@ -65,7 +65,7 @@ window.onload = function (){
        pizzaImg[slideIndex3-1].style.display = "block";
         setTimeout(pizza, 250);
     }
-    $('#foodThree').on('click',() => {
+    $('.pizza').on('click',() => {
         donut();
         $('#foodThree').fadeOut(1000);
         $('#foodFour').delay(1000);
@@ -80,7 +80,7 @@ window.onload = function (){
        donutImg[slideIndex4-1].style.display = "block";
         setTimeout(donut, 250);
     }
-    $('#foodFour').on('click', ()=>{
+    $('.donut').on('click', ()=>{
         $('#foodFour').fadeOut(1000);
         $('#website').delay(1000);
         $('#website').fadeIn(1000);
