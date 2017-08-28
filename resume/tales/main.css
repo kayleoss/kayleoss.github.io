@@ -217,9 +217,13 @@ body{
     display:none;
 }
 @media only screen and (max-width:481px),(orientation:portrait){
+    .hidden{
+        overflow:hidden;
+    }
     #headbar{
         position:fixed;
         opacity:1;
+        width:100%;
     }
     #logo{
         width:100%;
