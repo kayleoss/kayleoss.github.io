@@ -4,21 +4,28 @@
         <title>Katie Liu</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link href="main.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dancing+Script|Satisfy|Sedgwick+Ave" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="jquery.js"></script>
+        <script src="modernizr.js"></script>
+        <script src="jquery.secretnav.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="jquery.secretnav.css" />
+        <link href="main.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+    
+    <div id="container">
 
-        <div id = "nav">
-            <ul>
-                <li><a href="index.html">Homepage</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </div>
+        <div class = "hide"> 
 
-        <div class = "hide">
+            <div id="open">
+            <a class="open-menu">≣</a> 
+            </div>
+            <nav>
+                <a href="index.html">Homepage</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+            
         
         <div id="reminders">
             <a href="reminders/index.html"target="_blank"><img src="reminders/write.png"/></a>
@@ -46,15 +53,19 @@
             <a href="work/index.html"target="_blank"> <img src="work/resume.png"/> </a>
         </div>
 
-
+        
+        
+        
        
 
         </div><!-- End of HIDE div -->
 
-    <div id="footer">
-           <p> &copy; Katie Liu 2017 </p>
-            </div>
+        
 
+    </div>
+    <div id="footer">
+            <p> &copy; Katie Liu 2017 </p>
+    </div>
 
     <script src="project.js"></script>
     </body>

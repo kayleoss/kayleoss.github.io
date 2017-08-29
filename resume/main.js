@@ -3,7 +3,23 @@ const head = document.getElementById('head');
 const headp = document.getElementById('headp');
 let position = 100;
 
+
 window.onload = function main(){
+    if(window.innerWidth < 500){
+    $( '#container' ).SecretNav({		
+    	navSelector: 'nav',			// selector of the nav tag
+		openSelector: '.open-menu',	// selector of the menu's opener
+        position: 'top',
+    });
+    }
+    if(window.innerWidth >= 500){
+        $( '#container' ).SecretNav({		
+            navSelector: 'nav',			// selector of the nav tag
+            openSelector: '.open-menu',	// selector of the menu's opener
+            position: 'left',
+        });
+    }
+
     $('#hidden').hide();
     $('#hidden').show();
     $('.mediaicons').hide();
@@ -12,7 +28,7 @@ window.onload = function main(){
     $('#head').hide();
     $('#head').delay(1000);
     $('#head').fadeIn(2000);
-    $('.mediaicons').delay(6000);
+    $('.mediaicons').delay(4000);
     $('.mediaicons').slideDown(1000);
 
     setTimeout(interval, 3000);
