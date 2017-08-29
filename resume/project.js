@@ -1,6 +1,22 @@
 window.onload = function main(){
+    if(window.innerWidth < 500){
+        $( '#container' ).SecretNav({		
+            navSelector: 'nav',			// selector of the nav tag
+            openSelector: '.open-menu',	// selector of the menu's opener
+            position: 'top',
+        });
+        }
+        if(window.innerWidth >= 500){
+            $( '#container' ).SecretNav({		
+                navSelector: 'nav',			// selector of the nav tag
+                openSelector: '.open-menu',	// selector of the menu's opener
+                position: 'left',
+            });
+        }
     $('.hide').hide();
     $('.hide').show();
+    $('#open').hide();
+    $('#open').fadeIn(2000);
     $('#bravoimg').hide();
     $('#resumeimg').hide();
     $("#game").hide();

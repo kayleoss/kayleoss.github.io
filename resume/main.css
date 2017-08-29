@@ -15,31 +15,9 @@ body{
 .hide{
     display:none;
 }
-#nav{
-    width:100%;
-    top:0;
-    background-color:lightsteelblue;
-    position:relative;
-    
+#container{
+    background-color:lightgray;
 }
-#nav ul{
-    text-align:left;
-    text-decoration:none;
-    list-style-type: none;
-}
-#nav ul li{
-    display:inline;
-    padding:0% 5%;
-}
-#nav ul a{
-    text-decoration:none;
-    color:white;
-    font-size:1.3em;
-}
-#nav ul a:hover{
-    color:grey;
-}
-
 #head{
     position:relative;
     left:0px;
@@ -94,6 +72,22 @@ body{
     background-image: url('background.jpg');
     background-size:cover;
 }
+#open a{
+    opacity:0.8;
+    position:fixed;
+    padding:0px 1.5%;
+    background-color:black;
+    text-decoration:none;
+    color:white;
+    font-size:2em;
+    text-align:center;
+}
+#open a:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+}
+
 /*
 #backgrounder{
     width:100%;
@@ -110,7 +104,7 @@ body{
     left:0px;
     right:0px;
     margin:auto;
-    margin-top:2%;
+    margin-bottom:2%;
     text-align:center;
 }
 #reminders img, #bravoimg img , #resumeimg img, #blogger img, #game img, #text img, #tales img{
@@ -160,7 +154,7 @@ body{
 }
 #footer{
     position:fixed;
-    bottom:0%;
+    bottom:0px;
     width:100%;
     text-align:right;
 }
