@@ -17,6 +17,7 @@ body{
 }
 #container{
     background-color:lightgray;
+    margin-bottom:5%;
 }
 #head{
     position:relative;

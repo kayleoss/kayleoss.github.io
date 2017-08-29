@@ -28,9 +28,13 @@ window.onload = function main(){
     $('#head').hide();
     $('#head').delay(1000);
     $('#head').fadeIn(2000);
+    $('#back').delay(2500);
+    $('#back').animate({left: "0%"}, 1000);
+
     $('.mediaicons').delay(4000);
     $('.mediaicons').slideDown(1000);
 
+    /*
     setTimeout(interval, 3000);
 
     function interval() {
@@ -46,6 +50,9 @@ window.onload = function main(){
             clearInterval(interval);
         }
     } //end of 'moveback'
+    */
+
+
 } //End of main function 
 
      
