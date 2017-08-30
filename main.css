@@ -17,7 +17,7 @@ body{
 }
 #container{
     background-color:lightgray;
-    margin-bottom:5%;
+    height:100%;
 }
 #head{
     position:relative;
@@ -74,9 +74,8 @@ body{
     background-size:cover;
 }
 #open a{
-    margin:1%;
     opacity:0.8;
-    position:fixed;
+    position:relative;
     padding:0px 1.5%;
     background-color:black;
     text-decoration:none;
@@ -89,7 +88,18 @@ body{
     background-color:white;
     color:black;
 }
-
+#demosDescrip{
+    position:relative;
+    margin-top:1%;
+    width:100%;
+    text-align:center;
+    background-color:white;
+    opacity:0.8;
+}
+#demosDescrip p{
+    font-size:1.5em;
+    color:black;
+}
 /*
 #backgrounder{
     width:100%;
@@ -114,6 +124,7 @@ body{
     width:100%;
     border:solid 1px black;
     border-radius:35px;
+    box-shadow: 5px 15px 15px grey;
 }
 #reminders img:hover,
 #tales img:hover,
@@ -209,6 +220,19 @@ body{
     }
     #reminders,#tales, #bravoimg, #resumeimg, #bravoweb, #blogger, #game, #text{
         width:45%;
+    }
+    #demosDescrip{
+        left:0px;
+        right:0px;
+        margin:auto;
+        width:60%;
+        font-size:0.7em;
+        margin-bottom:2%;
+        border: solid 5px transparent;
+        border-radius:35px;
+    }
+    #demosDescrip p{
+        padding:2%;
     }
     
 }
