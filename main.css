@@ -8,7 +8,6 @@ body{
     background-color:lightgray;
 }
 #hidden{
-    width:100%;
     overflow:hidden;
     display:none;
 }
@@ -76,11 +75,13 @@ body{
 }
 #background{
     width:100%;
-    height:100%;
     position:absolute;
-    top:0%;
-    background-image: url('background.jpg');
-    background-size:cover;
+    min-height:100vh;
+    background: url('background.jpg') no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #open a{
     opacity:0.8;

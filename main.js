@@ -1,6 +1,3 @@
-const back = document.getElementById('back');
-const head = document.getElementById('head');
-const headp = document.getElementById('headp');
 let position = 100;
 
 
