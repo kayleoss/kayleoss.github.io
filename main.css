@@ -252,14 +252,3 @@ body{
     }
     
 }
-@media only screen and (min-width:1281px){
-    #backgrounder{
-        background-image: url('fullres.jpg');
-        background-repeat:no-repeat;
-        background-size:cover;
-        height:200vw;
-    }
-    #reminders,#tales, #bravoimg, #resumeimg, #bravoweb, #blogger, #game, #text{
-        width:30%;
-    }
-}
