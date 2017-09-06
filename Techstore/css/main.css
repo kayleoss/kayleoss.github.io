@@ -205,3 +205,55 @@ button{
 textarea:focus, input:focus{
     outline: none;
 }
+@media only screen and (max-width: 481px),(orientation:portrait){
+    #header{
+        overflow:hidden;
+    }
+    #piclink{
+        width:10%;
+    }
+    #header h1{
+        font-size:1.7em;
+    }
+    #symbol{
+        display:inline-block;
+        width:5%;
+        position: relative;
+        margin-left:25%;
+    }
+    #symbol a{
+        font-size:0.6;
+    }
+    .slider{
+        height:52vh;
+        overflow:hidden;
+    }
+    .slide{
+        width:200%;
+        position:center;
+    }
+    #img-over h1{
+        font-size:1.8em;
+        line-height:25px;
+    }
+    .middle-block{
+        width:100%;
+        margin-bottom:15%;
+    }
+    .col-sm-3{
+        height:10vh;
+    }
+    #footer p{
+        font-size:1em;
+        padding:0px 5px;
+    }
+    .techTitle{
+        width:100%;
+    }
+    input, textarea{
+        width:90%;
+    }
+    button{
+        width:50%;
+    }
+}
