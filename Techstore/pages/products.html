@@ -41,7 +41,8 @@
             <div class="col">
                 <button class="btn btn-primary" id="all">All</button>
                 <button class="btn btn-success" id="computer">Computer</button>
-                <button class="btn btn-info botbut" id="other">Audio</button>
+                <button class="btn btn-info" id="other">Audio</button>
+                <button class="btn btn-warning botbut" id="mobile">Mobile</button>
             </div>
         </div>
         <!-- Product postings below -->
@@ -67,6 +68,36 @@
                           <!-- Specify details about the item that buyers will purchase. -->
                           <input type="hidden" name="item_name" value="beats">
                           <input type="hidden" name="amount" value="200">
+                          <input type="hidden" name="currency_code" value="CAD">
+                          <!-- Display the payment button. -->
+                          <input type="image" name="submit" style="border:0px" class="buyNow"
+                          src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_buynow_107x26.png"
+                          alt="Buy Now">
+                        </form>
+                    </div>   
+            </div>
+            <div class="row posting mobile">
+                <div class="col-sm-12 post">
+                    <h2>Spigen Rugged Armor Oneplus 2 Case</h2>
+                    <p>New, $20</p>
+                </div>
+                <div class="col-sm-6 post">
+                    <img src="../images/spigen.jpg" style="width:45%"/>
+                </div>
+                <div class="col-sm-6">
+                    <p style="text-align:left">This single layer TPU case is an exact slim fit 
+                        for the Oneplus 2. The corners of the case have Air Cushion Technology to 
+                        protect against drops and bumps. Not only will your Oneplus 2 be looking 
+                        extra stylish, it will be much safer in your hands! 
+                    </p>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                          <!-- Identify your business so that you can collect the payments. -->
+                          <input type="hidden" name="business" value="katie_business@hotmail.ca">
+                          <!-- Specify a Buy Now button. -->
+                          <input type="hidden" name="cmd" value="_xclick">
+                          <!-- Specify details about the item that buyers will purchase. -->
+                          <input type="hidden" name="item_name" value="onePlus2">
+                          <input type="hidden" name="amount" value="20">
                           <input type="hidden" name="currency_code" value="CAD">
                           <!-- Display the payment button. -->
                           <input type="image" name="submit" style="border:0px" class="buyNow"
@@ -107,6 +138,38 @@
             </div>
             <div class="row posting computer">
                     <div class="col-sm-12 post">
+                        <h2>Apple USB Superdrive</h2>
+                        <p>Lightly Used, $90</p>
+                    </div>
+                    <div class="col-sm-6 post">
+                        <img src="../images/superdrive.jpg" style="width:60%"/>
+                    </div>
+                    <div class="col-sm-6">
+                        <p style="text-align:left">Missing the CD drive on your Macbook? 
+                            Burn both CDs and DVDs with this USB Superdrive. It's as simple as it sounds.
+                            The Apple USB Superdrive is compact and beautifully designed for ease and
+                            simplicity. Connect it to your device with the included USB-A cable and begin
+                            your work!
+                             
+                        </p>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                              <!-- Identify your business so that you can collect the payments. -->
+                              <input type="hidden" name="business" value="katie_business@hotmail.ca">
+                              <!-- Specify a Buy Now button. -->
+                              <input type="hidden" name="cmd" value="_xclick">
+                              <!-- Specify details about the item that buyers will purchase. -->
+                              <input type="hidden" name="item_name" value="superdrive">
+                              <input type="hidden" name="amount" value="90">
+                              <input type="hidden" name="currency_code" value="CAD">
+                              <!-- Display the payment button. -->
+                              <input type="image" name="submit" style="border:0px" class="buyNow"
+                              src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_buynow_107x26.png"
+                              alt="Buy Now">
+                            </form>
+                        </div>   
+                </div>
+            <div class="row posting computer">
+                    <div class="col-sm-12 post">
                         <h2>Razer Mamba Tournament Edition</h2>
                         <p>New, $110</p>
                     </div>
@@ -137,7 +200,7 @@
             <div class="row posting computer">
                     <div class="col-sm-12 post">
                         <h2>Razer Blackwidow Ultimate Classic</h2>
-                        <p>Lightly Used, $60</p>
+                        <p>Lightly Used, $100</p>
                     </div>
                     <div class="col-sm-6 post">
                         <img src="../images/razer.png"/>
@@ -155,7 +218,7 @@
                               <input type="hidden" name="cmd" value="_xclick">
                               <!-- Specify details about the item that buyers will purchase. -->
                               <input type="hidden" name="item_name" value="razerKeyboard">
-                              <input type="hidden" name="amount" value="60">
+                              <input type="hidden" name="amount" value="100">
                               <input type="hidden" name="currency_code" value="CAD">
                               <!-- Display the payment button. -->
                               <input type="image" name="submit" style="border:0px" class="buyNow"

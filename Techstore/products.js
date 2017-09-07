@@ -20,13 +20,21 @@ window.onload=function(){
    $('#all').on('click',function(){
        $('.computer').fadeIn(1000);
        $('.other').fadeIn(1000);
+       $('.mobile').fadeIn(1000);
    })
    $('#computer').on('click',function(){
        $('.other').fadeOut(1000);
+       $('.mobile').fadeOut(1000);
        $('.computer').fadeIn(1000);
    })
    $('#other').on('click', function(){
+       $('.mobile').fadeOut(1000);
        $('.computer').fadeOut(1000);
        $('.other').fadeIn(1000);
+   })
+   $('#mobile').on('click',function(){
+    $('.computer').fadeOut(1000);
+    $('.other').fadeOut(1000);
+    $('.mobile').fadeIn(1000);
    })
 }
