@@ -14,17 +14,8 @@ body{
 .hide{
     display:none;
 }
-#backgrounder{
-    position:absolute;
-    min-height:100vh;
-    background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-466334.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 #container{
-    background-color:lightgray;
+    background-color:lightgrey;
     height:100%;
 }
 #head{
@@ -105,7 +96,7 @@ body{
     text-align:center;
     position:relative;
     margin-top:1%;
-    width:60%;
+    width:100%;
     opacity:0.8;
 }
 #projects-heading{
@@ -137,7 +128,7 @@ body{
 #reminders img, #bravoimg img , #resumeimg img, #blogger img, #game img, #text img, #tales img{
     width:100%;
     border:solid 3px transparent black;
-    border-radius:35px;
+    border-radius:5%;
     box-shadow: 5px 15px 15px #404244;
 }
 #tales img:hover,
@@ -178,7 +169,7 @@ body{
 }
 #footer{
     position:absolute;
-    bottom:0px;
+    bottom:0%;
     width:100%;
     text-align:right;
 }
@@ -230,10 +221,18 @@ body{
         font-size:0.7em;
     }
     #reminders,#tales, #bravoimg, #resumeimg, #bravoweb, #blogger, #game, #text{
+        position:relative;
         width:75%;
+        left: 0px;
+        float:none;
+        margin:auto;
+        margin-top:5%;
+    }
+    #bravoimg img , #game img, #text img, #tales img{
+        border-radius:0px;
     }
     #text{
-        margin-bottom:10%;
+        margin-bottom:20%;
     }
     #demosDescrip{
         left:0px;
@@ -242,13 +241,16 @@ body{
         width:60%;
         font-size:0.7em;
         margin-bottom:2%;
-        border: solid 5px transparent;
-        border-radius:35px;
-        box-shadow: 5px 15px 15px grey;
     }
     #demosDescrip p{
         padding:4%;
         text-align:left;
+    }
+    #footer{
+        position:fixed;
+    }
+    #container{
+        height:100%;
     }
     
 }

@@ -20,6 +20,49 @@ p{
 .noshow{
     display:none;
 }
+#andor{
+    position: absolute;
+    z-index:1;
+    display: block;
+    width:3%;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    text-align:center;
+    margin-top:79vh;
+}
+.descriptions{
+    text-align:center;
+}
+.descriptions h1{
+    font-weight:bold;
+}
+.col-sm-6 h1, .col-sm-6 p{
+    padding:5%;
+}
+#undermain{
+    overflow:hidden;
+    padding:0px;
+    margin-top:3%;
+    width:100%;
+    border:1px solid black;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.descriptions img{
+    width:50vw;
+    margin:0px;
+    padding:0px;
+}
+#andor:hover{
+    cursor:pointer;
+}
+#andor a{
+    text-decoration:none;
+}
+#andor img{
+    width:60%;
+    opacity:1;
+}
 .container-fluid{
     text-align:center;
 }
@@ -28,6 +71,9 @@ p{
     left: 0px;
     right: 0px;
     margin:auto;
+    margin-top:5%;
+}
+#first-middle-block{
     margin-top:5%;
 }
 #header{
@@ -44,7 +90,6 @@ p{
 }
 #piclink img{
     width:100%;
-    
 }
 #header h1{
     text-decoration:none;
@@ -206,6 +251,9 @@ textarea:focus, input:focus{
     outline: none;
 }
 @media only screen and (max-width: 481px),(orientation:portrait){
+    #andor{
+        display:none;
+    }
     #header{
         overflow:hidden;
     }
@@ -258,5 +306,11 @@ textarea:focus, input:focus{
     }
     .botbut{
         margin-bottom:5%;
+    }
+    .descriptions img{
+        width:100%;
+    }
+    #first-middle-block{
+        margin-top:15%;
     }
 }
