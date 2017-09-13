@@ -67,9 +67,16 @@ opacity:0.8;
       background: url('../img/backgroundimg.png') center center / cover no-repeat;
     }
     .slider{
-        height:8vh;
-        width:100%;
+        height:auto;
+        width:auto;
     }
+    .navbar-brand img{
+        width:10%;
+    }
+    .fullscreen-bg__video{
+        display:none;
+    }
+    
     }  
 .btn{
     left: 0px;
@@ -144,5 +151,10 @@ opacity:0.8;
     margin:auto;
 }
 .middle-buttons a{
-    width:100%;
+    display:block;
+    width:30%;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    margin-top:2%;
 }
