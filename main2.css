@@ -1,0 +1,303 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-size:16px;
+    font-family:'Comfortaa', cursive;
+    background-color:white;
+}
+.hidden{
+    display:none;
+}
+.middle{
+    left: 0px;
+    right: 0px;
+    margin:auto;
+}
+#about{
+    position: relative;
+}
+.angle-down{
+    left: 0px;
+    right: 0px;
+    top:92vh;
+    margin:auto;
+    position:absolute;
+    width:4%;
+    overflow:hidden;
+}
+#nextPage{
+    margin-top:3%;
+}
+#carimg{
+    margin-top:5%;
+    margin-left:45%;
+    width:50%;
+}
+.phoneimg{
+    width:50%;
+}
+.headings{
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    width:20%;
+    font-size:3em;
+    color:white;
+    background-color:lightgrey;
+    font-size:1.5em;
+}
+.mainPage{
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:100%;
+    background: url('background.jpg') no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.angledown a{
+    text-decoration:none;
+    height:6vh;
+}
+.angle-down img{
+    width:100%;
+}
+.angle-down img:hover{
+    opacity:0.4;
+}
+#head{
+    position:relative;;
+    left:0px;
+    right:0px;
+    margin:auto;
+    margin-top:15%;
+    width:80%;
+    text-align:center;
+}
+#head h1:hover{
+    opacity:0.5;
+    font-size:4.06em;
+}
+#head h1{
+    color:grey;
+    font-size:4em;
+}
+.andor{
+    width:4%;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:2%;
+}
+.andor a{
+    text-decoration:none;
+}
+.andor img{
+    width:50%;
+}
+.andor:hover{
+    opacity:0.5;
+}
+#head p{
+    color:grey;
+    font-size:2em;
+}
+#support{
+    margin-top:5%;
+    width:100%;
+    text-align:center;
+    background-color:white;
+}
+#support p{
+    font-size:2em;
+    color:black;
+}
+#support2{
+    margin-top:0px;
+    padding:0px;
+    width:100%;
+    text-align:center;
+    background-color:white;
+}
+#support2 p{
+    font-size: 1.5em;
+    color:grey;
+}
+#back{
+    width:100%;
+    position:absolute;
+    opacity:0.7;
+    right:100%;
+}
+#demosDescrip{
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    text-align:center;
+    position:relative;
+    margin-top:1%;
+    width:100%;
+    opacity:0.8;
+}
+#projects-heading{
+    width:60%;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    text-align:center;
+    position:relative;
+    margin-top:1%;
+}
+#projects-heading p{
+    padding-bottom:3%;
+    font-size:2em;
+    font-weight:bold;
+}
+#demosDescrip p{
+    font-size:1.5em;
+    color:black;
+}
+ #tales, #bravoimg, #game, #text{
+    width:20%;
+    position:relative;
+    float:left;
+    margin-top:5%;
+    margin-left:4%;
+    text-align:center;
+}
+#reminders img, #bravoimg img , #resumeimg img, #blogger img, #game img, #text img, #tales img{
+    width:100%;
+    border:solid 3px transparent black;
+    border-radius:5%;
+    box-shadow: 5px 15px 15px #404244;
+}
+#tales img:hover,
+#bravoimg img:hover,
+#game img:hover,
+#text img:hover
+{
+    cursor:pointer;
+    filter:blur(5px);
+}
+.mediaicons{
+    position:relative;
+    width:15%;
+    left:0px;
+    right:0px;
+    margin:auto;
+    display:none;
+}
+.mediaicons img{
+    width:22%;
+    padding:0px;
+}
+.mediaicons a{
+    text-decoration:none;
+}
+#facebook:hover , #twitter:hover, #insta:hover, #email:hover{
+    opacity:0.5;
+}
+#footer{
+    position:absolute;
+    bottom:0%;
+    width:100%;
+    text-align:right;
+}
+#footer p{
+    font-size:1em;
+    color:grey;
+    padding:0% 2%;
+}
+@media only screen and (max-width:480px),(orientation:portrait){
+   .angle-down{
+       width:15%;
+       background-color:black;
+       opacity:1;
+       height:4vh;
+   }
+   .angle-down img{
+       padding:10% 10%;
+       margin-bottom:2%;
+   }
+    #nav ul li{
+        font-size:1.2em;
+    }
+    #head{
+        width:100%;
+        margin-top:35%;
+    }
+    #head h1{
+        font-size:3em;
+        color:black;
+    }
+    #head h1:hover{
+        font-size:3.1em;
+    }
+    #head p{
+        font-size:1.3em;
+    }
+    #support2{
+        display:none;
+    }
+    .mediaicons{
+        width:60%;
+    }
+    #facebook,
+    #twitter,
+    #insta,
+    #email{
+        width:20%;
+        padding:2%;
+}
+    #support{
+        margin-top:20%;
+    }
+    #support p{
+        font-size:1.3em;
+    }
+    #support2 p{
+        font-size:1.3em;
+    }
+    #footer p{
+        font-size:0.7em;
+    }
+    #reminders,#tales, #bravoimg, #resumeimg, #bravoweb, #blogger, #game, #text{
+        position:relative;
+        width:75%;
+        left: 0px;
+        float:none;
+        margin:auto;
+        margin-top:5%;
+    }
+    #bravoimg img , #game img, #text img, #tales img{
+        border-radius:0px;
+    }
+    #text{
+        margin-bottom:20%;
+    }
+    #demosDescrip{
+        left:0px;
+        right:0px;
+        margin:auto;
+        width:60%;
+        font-size:0.7em;
+        margin-bottom:2%;
+    }
+    #demosDescrip p{
+        padding:4%;
+        text-align:left;
+    }
+    #footer{
+        position:fixed;
+    }  
+}
+@media only screen and (max-width:1270px){
+    #back p{
+        font-size:1.4em;
+    }
+}
