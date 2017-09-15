@@ -18,6 +18,18 @@ body{
     margin-top:5%;
     color:white;
 }
+form{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+}
+form input{
+    padding:1%;
+}
+textarea{
+    height:30vh;
+}
 #head p{
     color:white;
 }
@@ -42,6 +54,9 @@ body{
     left: 0;
     overflow: hidden;
     z-index: -100;
+}
+iframe{
+    width:100%;
 }
 .fullscreen img{
     position: fixed;
@@ -99,6 +114,9 @@ opacity:0.5;
     #head{
         margin-top:10%;
     }
+    form{
+        width:100%;
+    }
     .fullscreen-bg {
       background: url('../img/backgroundimg.png') center center / cover no-repeat;
     }
@@ -110,6 +128,9 @@ opacity:0.5;
     }
     .seventy{
         text-align:center;
+    }
+    iframe{
+        width:100%;
     }
     .slider{
         height:auto;
