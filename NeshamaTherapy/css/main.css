@@ -43,6 +43,16 @@ body{
     overflow: hidden;
     z-index: -100;
 }
+.fullscreen img{
+    position: fixed;
+    width:100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
 .fullscreen-bg__video{
     position: absolute;
     top:0;
@@ -57,6 +67,20 @@ width:100%;
 height: 100%;
 left: 0px;
 opacity:0.5;
+}
+.fifty{
+    color:white;width:50%;margin-left:auto;margin-right:auto;
+}
+.seventy{
+    text-align:right;
+}
+.sixty{
+    text-align:left;
+}
+.rates{
+    background-color:black;
+    width:100%; 
+    height:100%;
 }
 @media (min-aspect-ratio: 16/9) {
     .fullscreen-bg__video {
@@ -78,6 +102,15 @@ opacity:0.5;
     .fullscreen-bg {
       background: url('../img/backgroundimg.png') center center / cover no-repeat;
     }
+    .sixty{
+        text-align:center;
+        font-size:0.7em;
+        margin-top:15%;
+        margin-bottom:5%;
+    }
+    .seventy{
+        text-align:center;
+    }
     .slider{
         height:auto;
         width:auto;
@@ -85,10 +118,15 @@ opacity:0.5;
     .navbar-brand img{
         width:10%;
     }
+    .fullscreen{
+        display:none;
+    }
     .fullscreen-bg__video{
         display:none;
     }
-    
+    .fifty{
+        width:100%;
+    }
     }  
 .btn{
     left: 0px;
