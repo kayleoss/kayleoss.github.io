@@ -108,38 +108,51 @@ footer p{
 	position:absolute;
 	margin:0 auto;
 	top:55%;
-	left:2%;
+	left:35%;
 }
 .coffeetext p{
 	color:white;
 	font-size:3em;
 }
-.coffeeonetext{
+.coffeetext17{
 	display:none;
 	width:30%;
 	position:absolute;
 	margin:0 auto;
-	top:180%;
-	right:0%;
+	top:55%;
+	left:35%;
 }
-.coffeeonetext p{
+.coffeetext17 p{
 	color:white;
 	font-size:3em;
 }
-.coffeetwotext{
+.heartimg{
 	display:none;
-	width:30%;
+	width:7%;
 	position:absolute;
-	left:5%;
-	top:320%;
+	margin:0 auto;
+	top:55%;
+	left:35%;
 }
-.coffeetwotext p{
-	color:white;
-	font-size:3em;
+.heartimg2{
+	display:none;
+	width:5%;
+	position:absolute;
+	margin:0 auto;
+	top:55%;
+	left:35%;
 }
 iframe{
 	margin-top:5%;
 	margin-left:5%;
+}
+.menuitem{
+	position: absolute;
+	top:50%;
+	left:40%;
+	display:none;
+	color:white;
+	font-size:5em;
 }
 .locationtext{
 	width:40%;
