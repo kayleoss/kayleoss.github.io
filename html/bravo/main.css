@@ -1,0 +1,286 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family: 'Lobster', cursive;
+	font-size:16px;
+	background-color:#2b1c00;
+}
+.logo{
+	width:100%;
+	position:relative;
+	top:0;
+	left:0px;
+	right:0px;
+	margin:auto;
+	background-color:#257919;
+}
+.logo p{
+	text-align:center;
+}
+.logo p a{
+	font-size:5em;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+}
+.logo p a:hover{
+	color:#2b1c00;
+}
+.nav{
+	width:100%;
+	background-color:#257919;
+	position:absolute;
+	margin-top:0%;
+}
+.nav ul{
+	width:100%;
+	background-color:#257919;
+	margin:0 auto;
+	list-style-type: none;
+	text-align:center;
+}
+.nav ul li{
+	padding:0% 2%;
+	float:right;
+	background-color:#257919;;
+}
+.nav li p{
+	font-size:2em;
+}
+.nav ul li:hover{
+	cursor:pointer;
+}
+.nav li p:hover{
+	color:white;
+}
+
+/* About Us*/
+.container{
+	width:70%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5%;
+	display:none;
+}
+.container h1{
+	margin:4% 3%;
+	text-align:center;
+	color:white;
+	font-size:2.7em;
+}
+.container img{
+	width:100%;
+	margin:0 auto;
+	display:block;
+	margin-bottom:2%;
+}
+.container p{
+	color:white;
+	text-align:left;
+	font-size:1.5em;
+	font-family:"Lobster";
+	line-height:3em;
+}
+footer{
+	width:100%;
+	background-color:#257919;
+	margin-top:0%;
+	bottom:0%;
+	position:fixed;
+}
+footer p{
+	font-size:1em;
+	text-align:center;
+}
+/*Homepage*/
+.coffee{
+	margin-top:5%;
+}
+.homepage img{
+	width:100%;
+}
+.coffeetext {
+	display:none;
+	width:30%;
+	position:absolute;
+	margin:0 auto;
+	top:55%;
+	left:35%;
+}
+.coffeetext p{
+	color:white;
+	font-size:3em;
+}
+.coffeetext17{
+	display:none;
+	width:30%;
+	position:absolute;
+	margin:0 auto;
+	top:55%;
+	left:35%;
+}
+.coffeetext17 p{
+	color:white;
+	font-size:3em;
+}
+.heartimg{
+	display:none;
+	width:7%;
+	position:absolute;
+	margin:0 auto;
+	top:55%;
+	left:35%;
+}
+.heartimg2{
+	display:none;
+	width:5%;
+	position:absolute;
+	margin:0 auto;
+	top:55%;
+	left:35%;
+}
+iframe{
+	margin-top:5%;
+	margin-left:5%;
+}
+.menuitem{
+	position: absolute;
+	top:50%;
+	left:40%;
+	display:none;
+	color:white;
+	font-size:5em;
+}
+.locationtext{
+	width:40%;
+	position:absolute;
+	right:5%;
+	top:25%;
+	display:none;
+}
+.locationtext p{
+	font-size:1.5em;
+	color:white;
+}
+.cofcof{
+	display:none;
+}
+.coftwo{
+	display:none;
+}
+.coftwoimg{
+	display:none;
+}
+
+@media only screen and (max-width:480px), (orientation:portrait){
+	body{
+		background-color:black;
+		height:auto;
+	}
+	.logo p a{
+		font-size:3em;
+	}
+	.nav li p{
+		font-size:1.4em;
+	}
+	.nav{
+		width:100%;
+		display:block;
+	}
+	.nav ul {
+		text-align:center;
+	}
+	.nav ul li:hover{
+		cursor:pointer;
+	}
+	.coffeetext{
+		width:70%;
+		position:absolute;
+		top:25%;
+		left:5%;
+		display:none;
+	}
+	.coffeetext p{
+		display:none;
+	}
+	.coffeeone{
+		display:none;
+	}
+	.coffeetwo{
+		display:none;
+	}
+	.cofcof{
+		position:relative;
+		width:70%;
+		left:0px;
+		right:0px;
+		margin:auto;
+		
+	}
+	.cofcof p{
+		text-align:center;
+		font-size:1.5em;
+		color:white;
+	}
+	.coftwo{
+		position:relative;
+		width:70%;
+		left:0px;
+		right:0px;
+		margin:auto;
+		margin-top:5%;
+	}
+	.coftwoimg{
+		width:100%;
+		display:unset;
+	}
+	.coftwoimg img{
+		width:100%;
+	}
+	.coftwo p{
+		text-align:center;
+		font-size:1em;
+		color:white;
+	}
+ /* About us */
+	.container{
+		width:100%;
+	}
+	.container h1{
+		margin-top:20%;
+		font-size:2em;
+	}
+	.container p{
+		padding: 5% 5%;
+		font-size:1.3em;
+	}
+/* location */
+	.locationpage{
+		width:100%;
+		overflow:hidden;
+	}
+	iframe{
+		position:relative;
+		width:90%;
+		left:0px;
+		right:0px;
+		margin-top:15%;
+	}
+	.locationtext{
+		left:0px;
+		right:0px;
+		margin:auto;
+		position:relative;
+		width:100%;
+		margin-bottom:15%;
+	}
+	.locationtext p{
+		padding:5% 5%;
+		font-size:1.3em;
+		text-align:center;
+	}
+	
+}
