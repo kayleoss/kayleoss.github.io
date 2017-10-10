@@ -12,7 +12,12 @@ window.onload = function (){
             });
         } 
         });
-        
+        var typed = new Typed('typed', {
+            strings:['Give It Up','Let It Go', 'Break Free', 'Never Look Back'],
+            smartBackspace: true,
+            typeSpeed:120,
+            loop: true
+          });
         var width = 1;
         $('#progressButton').on('click',function (){
             var elem = document.getElementById("progressbar");
