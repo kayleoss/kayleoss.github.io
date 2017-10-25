@@ -1,0 +1,224 @@
+/*!
+Theme Name: Katie\'s Wp Theme
+Theme URI: http://underscores.me/
+Author: katie liu
+Author URI: http://katieliu.ca
+Description: A custom wordpress theme by Katie Liu
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: katiewordpresstheme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Katie\'s Wp Theme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/ 
+.home{
+	font-family: 'Lato', sans-serif;
+}
+.customize-support{
+	font-family: 'Lato', sans-serif;
+}
+.page-template{
+	font-family: 'Lato', sans-serif;
+}
+html, * {
+	font-family: 'Lato', sans-serif;
+}
+/* PLEASE NOTE THAT SCREEN-READER-TEXT HAS BEEN HIDDEN */
+.screen-reader-text{
+	display:none;
+}
+#bs-example-navbar-collapse-1 a{
+	color:white;
+	transition:color 0.5s ease;
+	transition:background-color 1s ease;
+}
+#bs-example-navbar-collapse-1 a:hover{
+	color:black;
+	background-color:white;
+	opacity:0.7;
+}
+/*  
+====== CUSTOM STYLES FOR THIS THEME ========
+ */
+ body{
+	 font-size:16px;
+ }
+ .centered{
+	 text-align:center;
+ }
+ .descriptions{
+	 font-size:1.3em;
+	 color:#727171;
+	 padding:3%;
+ }
+ .pageTitle{
+	 font-size:2.1em;
+	 color:black;
+	 margin-top:5%;
+ }
+ .column-three-images img{
+	width:100%;
+	box-shadow: 4px 4px 14px #c4c4c4;
+ }
+ .title{
+	 font-weight:bold;
+	 font-size:1.5em;
+	 color:black;
+ }
+ #about-full{
+	 color:white;
+	 padding:5%;
+	 text-align:center;
+	 width:100%;
+	 margin-top:5%;
+	 background: -webkit-linear-gradient(left top, rgb(80, 165, 199), rgb(5, 83, 114)); /* For Safari 5.1 to 6.0 */
+	 background: -o-linear-gradient(bottom right, rgb(80, 165, 199), rgb(5, 83, 114)); /* For Opera 11.1 to 12.0 */
+	 background: -moz-linear-gradient(bottom right, rgb(80, 165, 199), rgb(5, 83, 114)); /* For Firefox 3.6 to 15 */	 
+ }
+ .pageHead{
+	margin-top:0;
+	margin-bottom:0;
+	text-align:right;
+	height:60vh;
+ }
+ .navbar{
+	 border-radius:0px;
+ }
+ .navbar a{
+	 color:white;
+	 transition:color 1s ease, background-color 1s ease;
+ }
+ .navbar a:hover{
+	 color:black;
+ }
+.navbar{
+	background: -webkit-linear-gradient(left top, rgb(80, 165, 199), rgb(5, 83, 114)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, rgb(80, 165, 199), rgb(5, 83, 114)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, rgb(80, 165, 199), rgb(5, 83, 114)); /* For Firefox 3.6 to 15 */	
+}
+.button-with-shadow{
+	padding:2%;
+	background: -webkit-linear-gradient(left top, rgb(41, 139, 179), rgb(9, 96, 131)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, rgb(41, 139, 179), rgb(9, 96, 131)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, rgb(41, 139, 179), rgb(9, 96, 131)); /* For Firefox 3.6 to 15 */
+	box-shadow: 1px 1px 8px grey;
+	border:1px solid transparent;
+	border-radius: 25px;
+	margin-top:3%;
+	color:white;
+	transition: box-shadow 0.5s ease-in;
+}
+.button-with-shadow:hover{
+	box-shadow: 5px 5px 14px grey;
+}
+#footerimg{
+	width:100%;
+	margin:3%;
+	border:1px solid transparent;
+}
+.footer-dark{
+	width:100%;
+}
+.footer-dark{
+	background-color:#4e4e4f;
+}
+.footer-dark h1, .footer-dark p{
+	color:white;
+}
+.formbottom{
+	padding:3%;
+	width:100%;
+	background-color:#646466;
+}
+.katie{
+	background-color:#d3d3d3;
+	padding:3%;
+	margin:5%;
+	border:2px solid transparent;
+	border-radius:10px;
+}
+.logos img{
+	width:auto;
+	height:20vh;
+	padding:5%;
+}
+.katie h1, .katie p{
+	color:black;
+}
+.button-handmade{
+	background-color:transparent;
+	border:1px solid #d7e8bb;
+	border-radius:10px;
+	color:white;
+	font-size:1.3em;
+	margin-top:3%;
+	transition: background-color 1s ease;
+}
+.button-handmade:hover{
+	color:black;
+	background-color:#d7e8bb;
+	border: 1px solid #d7e8bb;
+}
+.button-handmade2{
+	background-color:transparent;
+	border:1px solid #496912;
+	border-radius:10px;
+	color:black;
+	font-size:1.3em;
+	margin-top:3%;
+	transition: background-color 1s ease;
+}
+.button-handmade2:hover{
+	color:white;
+	background-color:#496912;
+	border: 1px solid #496912;
+}
+#page-head-button{
+	margin-right:10%;
+}
+.footer-darker{
+	width:100%;
+	background-color:#323233;
+}
+.footer-darker h1, .footer-darker p{
+	color:white;
+}
+a{
+	color:grey;
+}
+i{
+	color:grey;
+	margin:2%;
+	transition: color 0.9s ease;
+}
+i:hover{
+	color:#e3e4e5;
+}
+.full-screen-bg{
+	width:100%;
+	height:60vh;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-10;
+}
+@media only screen and (max-width:700px){
+	.pageHead{
+		margin-top:5%;
+		text-align:center;
+		background-color:white;
+		opacity:0.8;
+	 }
+	.button-handmade2{
+		margin-bottom:5%;
+	}
+	.pageTitle{
+		font-size:1.4em;
+	}
+}
