@@ -64,3 +64,16 @@ i:hover{
         height:15vh;
     }
 }
+@media screen and (min-width:1300px){
+    .download{
+        width:80%;
+        padding-top:5%;
+        padding-left: 12%;
+        padding-right:12%;
+    }
+    .download-button img{
+        padding-top:15%;
+        width:100%;
+        height:15vh;
+    }
+}
