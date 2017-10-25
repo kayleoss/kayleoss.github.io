@@ -1,0 +1,66 @@
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+.pageTitle{
+    font-size:2.7em;
+    margin-top:2%;
+    letter-spacing: 2.5px;
+    font-family:'Lobster', sans-serif;
+}
+.centered{
+    text-align:center;
+}
+.tag-text{
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color:grey;
+}
+.main-landing{
+    position:relative;
+    margin-bottom:5%;
+    padding:0;
+    height:100vh;
+}
+.download-button img{
+    width:30vw;
+    height:6vh;
+}
+i{
+    color:grey;
+    transition: color 1s ease;
+}
+i:hover{
+    color:black;
+}
+.mediaicons{
+    width:30vw;
+    margin:0 auto;
+    margin-bottom:1%;
+}
+.download{
+    padding-top:2%;
+    padding-left: 35%;
+    padding-right:35%
+}
+.item{
+    margin-top:2%;
+}
+@media only screen and (max-width:700px){
+    .mediaicons{
+        width:80%;
+    }
+    .pageTitle{
+        margin-top:15%;
+    }
+    .download{
+        padding-top:5%;
+        padding-left: 20%;
+        padding-right:20%;
+    }
+    .download-button img{
+        padding-top:15%;
+        width:100%;
+        height:15vh;
+    }
+}
