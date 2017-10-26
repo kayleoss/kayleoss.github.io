@@ -7,6 +7,19 @@ body{
     margin-top:2%;
     letter-spacing: 2.5px;
     font-family:'Lobster', sans-serif;
+    color:white;
+    text-shadow:2px 2px 8px black;
+}
+.bg-fullscreen{
+    z-index:-1;
+    position:absolute;
+    top:0;
+    width:100%;
+    min-height:100%;
+    background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-527663.png');
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center center;
 }
 .centered{
     text-align:center;
@@ -14,7 +27,7 @@ body{
 .tag-text{
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    color:grey;
+    color:white;
 }
 .main-landing{
     position:relative;
@@ -27,11 +40,11 @@ body{
     height:6vh;
 }
 i{
-    color:grey;
+    color:white;
     transition: color 1s ease;
 }
 i:hover{
-    color:black;
+    color:grey;
 }
 .mediaicons{
     width:30vw;
