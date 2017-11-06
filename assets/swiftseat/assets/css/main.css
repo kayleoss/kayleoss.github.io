@@ -1,0 +1,190 @@
+body{
+    font-family:'Source Sans Pro', sans-serif;
+    background-color:#ffffff;
+    width:100%;
+    overflow-x:hidden;
+}
+.bg-home{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.bg-home img{
+    width:100%;
+}
+.centered{
+    text-align:center;
+}
+.title{
+    font-size:3em;
+    color:white;
+    font-family:'Volkhov', serif;
+    text-shadow:1px 1px 5px rgb(41, 39, 39); 
+}
+.description_white{
+    color:rgb(255, 255, 255);
+    font-size:1.3em;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    text-shadow:1px 1px 5px rgb(41, 39, 39); 
+}
+.handmade-button{
+    margin-top:2%;
+    color:white;
+    background-color:black;
+    border:1px solid transparent;
+    border-radius:20px;
+    padding:1% 2%;
+    transition: background-color 1s ease;
+}
+.handmade-button:hover{
+    cursor:pointer;
+    background-color:rgb(236, 112, 112);
+}
+.handmade-button:active{
+    outline:none;
+}
+.home-text{
+    height:100vh;
+}
+.home-titles{
+    padding-top:15%;
+}
+.about-section{
+    margin-top:5%;
+}
+.description_black{
+    color:grey;
+    font-size:1em;
+}
+.title_black{
+    padding-top:5%;
+    color:black;
+    font-family: 'Volkhov', serif;
+    font-size:2em;
+}
+.media-icons{
+    margin-top:4%;
+}
+.media-icons-footer{
+    text-align:center;
+    padding-top:4%;
+    padding-bottom:2%;
+}
+
+.fa{
+    padding:0 2%;
+    color:rgb(22, 16, 16);
+    transition:color 1s ease;
+}
+.fa:hover{
+    color:rgb(236, 112, 112);
+}
+.fa.fa-angle-down{
+    color:grey;
+}
+.fa-angle-scroll{
+    display:block;
+    margin-top:15%;
+    color:grey;
+    transition:color 1s ease;
+}
+.fa-angle-scroll:hover{
+    color:white;
+    text-decoration:none;
+}
+.btn{
+    background-color:transparent;
+}
+.btn:hover{
+    cursor:pointer;
+}
+.button-col{
+    padding:0;
+}
+.features-h1{
+    padding-top:4%;
+    color:black;
+    font-size:1.3em;
+}
+.features-section{
+    background-color:rgb(235, 235, 235);
+    width:100%;
+    margin-top:5%;
+    padding-bottom:5%;
+}
+.features-section2{
+    width:100%;
+    padding-bottom:5%;
+}
+.features-section2 img{
+    margin-top:3%;
+    width:100%;
+    box-shadow:2px 2px 8px grey;
+    transition:box-shadow 0.5s ease;
+}
+.features-section2 img:hover{
+    box-shadow: 4px 10px 15px black;
+}
+.sr-three img{
+    width:100%;
+    height:30vh;
+}
+.download-section{
+    background: rgb(247, 193, 131); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgb(247, 193, 131), rgb(231, 94, 53)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(247, 193, 131), rgb(231, 94, 53)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(247, 193, 131), rgb(231, 94, 53)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(252, 181, 155), rgb(231, 94, 53)); /* Standard syntax */
+    width:100%;
+}
+.team-section{
+    width:100%;
+    background-color:rgb(56, 56, 56);
+}
+.team-images{
+    padding:5% 25%;
+}
+.team-images img{
+    width:100%;
+}
+.footer-section{
+    width:100%;
+    background-color:rgb(8, 7, 7);
+}
+@media only screen and (max-width:700px){
+    .home-text{
+        height:80vh;
+    }
+    .title{
+        text-shadow:none;
+        margin-top:50%;
+        color:black;
+        font-size:3em;
+    }
+    .description_white{
+        color:grey;
+        font-size:1.5em;
+        text-shadow:none;
+    }
+    .fa-angle-scroll{
+        display:block;
+        margin-top:10%;
+        color:grey;
+        transition:color 1s ease;
+    }
+    .fa-angle-scroll:hover{
+        color:black;
+        text-decoration:none;
+    }
+    .screenshot{
+        padding-top:10%;
+    }
+    .button-col{
+       padding-bottom:5%;
+    }
+    .sr-four{
+        display:none;
+    }
+    
+}
