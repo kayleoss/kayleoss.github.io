@@ -27,11 +27,14 @@ swiper-slide {
   background-size: cover;
 }
 .swiper-container {
-  bottom: -50px;
+  bottom: -80px;
   width: 50%;
   margin:0 auto;
   padding-left:auto;
   padding-right:auto;
+  position:absolute;
+  left:0px;
+  right:0px;
 }
 .swiper-slide img {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
@@ -1218,15 +1221,44 @@ Responsive Styles
     margin-top: 22px;
   }
 }
-
+@media only screen and (max-width:1200px){
+  .swiper-container{
+    width:50%;
+    bottom:-50px;
+  }
+}
+@media only screen and (max-width:1000px){
+  .swiper-container{
+    width:60%;
+    bottom:-50px;
+  }
+}
+@media only screen and (max-width:940px){
+.swiper-container{
+    width:80%;
+    bottom:-50px;
+  }
+  .what-happens-tomorrow{
+    font-size:2em;
+  }
+  .btn{
+    margin-top:1%;
+  }
+}
 @media only screen and (max-width: 768px) {
   .swiper-container{
-    width:100%;
-    margin-top:10%;
+    width:80%;
+    bottom:-50px;
+  }
+  .what-happens-tomorrow{
+    font-size:2em;
+  }
+  .btn{
+    margin-top:1%;
   }
   /*** iPhone Screens ***/
   #header {
-    padding-top: 15%;
+    padding-top: 5%;
     padding-right:5%;
     padding-left:5%;
    }
@@ -1264,11 +1296,18 @@ Responsive Styles
   input[type="email"] {
     padding: 16px 26px;
   }
+  .swiper-container{
+    width:100%;
+    bottom:-20px;
+  }
   /*** Header ***/
   #header {
-   padding-top: 15%;
+   padding-top: 25%;
    padding-right:5%;
    padding-left:5%;
+  }
+  #header p{
+    width:80%;
   }
   #header .header_iphone {
     bottom: -220px;
