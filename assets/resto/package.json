@@ -1,0 +1,14 @@
+{
+  "name": "resto",
+  "version": "1.0.0",
+  "description": "restaurant",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resto"
+  ],
+  "author": "katie duo liu",
+  "license": "ISC"
+}
