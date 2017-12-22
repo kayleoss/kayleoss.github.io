@@ -154,6 +154,12 @@ nav{
     color:white;
     text-shadow:2px 2px 8px black;
 }
+#getstarted p{
+    text-align:center;
+    font-size:1.5em;
+    color:rgb(210, 245, 250);
+    text-shadow:1px 1px 5px black;
+}
 .getstarted-section{
     padding:3% 15%;
 }
@@ -242,6 +248,36 @@ p.jobs-type{
 }
 /* career  page */
 
+/* about page */
+.rounded-image{
+    width:100%;
+    border:1px solid grey;
+    border-radius:15px;
+    box-shadow:1px 2px 5px grey;
+}
+.about-us p{
+    padding:5% 5%;
+}
+.about-us h1{
+    text-align:center;
+}
+.employees img{
+    width:100%;
+    box-shadow:2px 2px 5px rgb(73, 72, 72);
+}
+.b{
+    display:block;
+    font-weight:bold;
+    margin: 5% auto;
+    text-align:center;
+    color:rgb(14, 8, 0);
+    font-size:1em;
+    text-shadow:none;
+}
+/* about page */
+
+
+/* media queries */
 @media (max-width:768px){
     .jobs-h1{
         margin-top:5%;
