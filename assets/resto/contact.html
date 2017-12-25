@@ -39,72 +39,61 @@
         <script src="https://use.fontawesome.com/322528c53f.js"></script>
     </head>
     <body>
-        <div id="wrapper">
-                <header style="height:auto">
-                        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-                            <a class="navbar-brand" href="/">
-                                <img src="https://vignette.wikia.nocookie.net/halofanon/images/f/f0/N-logo.png/revision/latest?cb=20151227112743"/>
-                            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="careers.html">Careers</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Get Started</a>
-                                </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </header>
-                    <div class="container career-page white-bg"> <!-- main container styles applied -->
-                        <h1 class="wow fadeInDown underlined-text" data-wow-delay="0.5s">Our Current Job Openings</h1>
-                        <p class="wow fadeInLeft" data-wow-delay="1s">Work For One Of The Fastest Growing Startups In Toronto</p> 
-                        <div class="row some-margin wow bounceInRight" data-wow-delay="1.5s">
-                            <div class="col-sm-4">
-                                <h1 class="jobs-h1">Brand Ambassador</h1>
-                                <p class="jobs-p">This role requires a self-motivated and hard working individual to represent our brand at events, galas, and open houses around the GTA. 
-                                    We require someone who has a passion for sales and surpassing goals.
-                                </p><hr>
-                                <p class="jobs-type">Location: Toronto, ON<br/>
-                                Type: Part-time</p>
-                                
-                                    <a href="#">Apply Now</a>
-                                
-                            </div>
-                            <div class="col-sm-4">
-                                <h1 class="jobs-h1">iOS Developer</h1>
-                                <p class="jobs-p">Our engineering team is seeking a hardworking iOS developer that 
-                                    has at least 5 years experience building and deploying mobile apps in Swift. We will ask you to show us your Github/Portfolio in the application.
-                                </p><hr>
-                                <p class="jobs-type">Location: Toronto, ON<br/>
-                                Type: Full-Time</p>
-                                
-                                    <a href="#">Apply Now</a>
-                               
-                            </div>
-                            <div class="col-sm-4">
-                                <h1 class="jobs-h1">Junior Analyst</h1>
-                                <p class="jobs-p">This role requires a hardworking individual with at least 2 years of experience working in an agile environment. We'd prefer if you have working knowledge of XML, JAXB, REST, SQL, SAS, VBA, CMS, Python, 
-                                    and database architecture.
-                                </p><hr>
-                                <p class="jobs-type">Location: Toronto, ON<br/>
-                                Type: Full-Time</p>
-                                
-                                    <a href="#">Apply Now</a>
-                                
-                            </div>
+    <div id="wrapper">
+            <header style="height:auto">
+                <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                    <a class="navbar-brand" href="/">
+                        <img src="https://vignette.wikia.nocookie.net/halofanon/images/f/f0/N-logo.png/revision/latest?cb=20151227112743"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="careers">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Get Started</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="container career-page white-bg">
+                <h1><i style="color:orange" class="fa fa-heart" aria-hidden="true"></i> Get Started With A Free Consultation</h1>
+                <hr>
+                <p>We'll discuss your companies strategic goals, marketing, brand revision, and how technology can play a part in generating additional revenue. 
+                    Fill out our form below to get started with the process.
+                </p>
+                <div style="text-align:center">
+                    <a href="#getstarted" class="btn btn-large btn-custom" style="text-decoration:none">Scroll Down</a>
+                </div>
+                
+            </div>
+            <div class="container orange-bg" id="getstarted" style="padding: 3% 5%">
+                <h1>Get Started</h1>
+                <hr style="border:1px dotted black">
+                <div class="container">
+                    <form id="contact-form" action="/form-process.php" method="post">
+                        <label for="name">Business Name</label>
+                        <input class="form-control" type="text" name="name" placeholder="Enter Your Business/Company Name">
+                        <label for="phone">Phone Number</label>
+                        <input class="form-control" type="number" name="phone" placeholder="Enter Phone Number">
+                        <label for="info">Background Information</label>
+                        <textarea class="form-control" name="info" placeholder="Tell Us A Bit About Your Company"></textarea>
+                        <div style="text-align:center">
+                            <button type="submit" class="btn btn-large btn-primary some-margin">Submit</button>
                         </div>
-                    </div> <!-- main container -->
+                    </form>
+                </div>
+            </div>
             <footer>
                     <div class="container">
                         <div class="row">
@@ -130,7 +119,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <h1 class="footer-h1">About Us</h1>
-                                <div class="item">NLanding Tech Group was founded in 2017 by Nissan Green and associates. Our goal is to strive towards creating exceptional 
+                                <div class="item">NLanding Tech Group was founded in 2017 by Nitsan Green and associates. Our goal is to strive towards creating exceptional 
                                     experiences and adventures in hospitality using the cutting edge technology of today.
                                 </div>
                             </div>
@@ -150,6 +139,13 @@
                     </div>
                 </section>
         </div><!-- wrapper -->
+                
+            
+    
+    
+    
+    
+    
             <script src="./assets/js/wow.min.js"></script>
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -166,4 +162,4 @@
                 });
             </script>
         </body>
-        </html>
+    </html>
