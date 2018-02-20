@@ -1,9 +1,4 @@
-Welcome! 
+My new portfolio website viewable at: http://katieliu.ca
 
-This is a website that displays some information about myself, Katie Liu, and my most recent projects.
-Most of the code has been compressed, sorry. Just using github pages for free hosting :)))) 
-
-
-Thanks for visiting! 
-
--Katie
+Created with React:) You are looking at the build version! 
+Source files are available upon request
