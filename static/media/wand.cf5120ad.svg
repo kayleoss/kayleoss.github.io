@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="872px" height="581px" viewBox="75 11 872 581" enable-background="new 75 11 872 581" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-118.5" y1="1083" x2="752.5" y2="1083" gradientTransform="matrix(1 0 0 -1 194 1105)">
+	<stop  offset="0" style="stop-color:#A9AAA9"/>
+	<stop  offset="0.9997" style="stop-color:#C6C6C6"/>
+</linearGradient>
+<rect x="75.5" y="11.5" fill="url(#SVGID_1_)" stroke="#111111" stroke-miterlimit="10" width="871" height="21"/>
+<rect x="76" y="33" fill="#B1B2B1" width="871" height="559"/>
+<ellipse fill="#DD673E" cx="89.425" cy="22.719" rx="8.012" ry="7.645"/>
+<ellipse fill="#F9AE08" cx="108.882" cy="22.719" rx="8.012" ry="7.645"/>
+<ellipse fill="#057F05" cx="128.339" cy="22.719" rx="8.012" ry="7.645"/>
+<rect x="76" y="33" fill="#6B6D6B" width="78" height="559"/>
+<rect x="142" y="33" fill="#6B6D6B" width="634" height="78"/>
+<rect x="776" y="33" fill="#6B6D6B" width="170" height="559"/>
+<rect x="786.5" y="45.5" fill="none" stroke="#1C1C1C" stroke-miterlimit="10" width="150" height="170"/>
+<rect x="786.5" y="242.5" fill="none" stroke="#1C1C1C" stroke-miterlimit="10" width="150" height="334"/>
+<rect x="79.5" y="72.5" fill="none" stroke="#1C1C1C" stroke-miterlimit="10" width="71" height="378"/>
+<rect x="217" y="170" fill="#FFFFFF" width="474" height="297"/>
+<path fill="#909390" d="M925,173c0,8.284-6.716,15-15,15H808c-8.284,0-15-6.716-15-15V71c0-8.284,6.716-15,15-15h102
+	c8.284,0,15,6.716,15,15V173z"/>
+<line fill="none" stroke="#050705" stroke-miterlimit="10" x1="114.5" y1="73" x2="114.5" y2="385"/>
+<line fill="none" stroke="#050705" stroke-miterlimit="10" x1="79" y1="114.5" x2="150" y2="114.5"/>
+<line fill="none" stroke="#050705" stroke-miterlimit="10" x1="79" y1="158.5" x2="150" y2="158.5"/>
+<line fill="none" stroke="#050705" stroke-miterlimit="10" x1="79" y1="204.5" x2="150" y2="204.5"/>
+<line fill="none" stroke="#050705" stroke-miterlimit="10" x1="79" y1="248.5" x2="150" y2="248.5"/>
+<line fill="none" stroke="#050705" stroke-miterlimit="10" x1="79" y1="294.5" x2="150" y2="294.5"/>
+<line fill="none" stroke="#050705" stroke-miterlimit="10" x1="80" y1="344.5" x2="151" y2="344.5"/>
+<line fill="none" stroke="#050705" stroke-miterlimit="10" x1="79" y1="384.5" x2="150" y2="384.5"/>
+<rect x="89.5" y="396.5" fill="#F42A2A" stroke="#050705" stroke-miterlimit="10" width="21" height="19"/>
+<rect x="104" y="407" fill="none" stroke="#050705" stroke-width="6" stroke-miterlimit="10" width="26" height="24"/>
+<circle fill="#B7B6B6" cx="98.108" cy="92.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="134.108" cy="92.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="134.108" cy="136.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="96.108" cy="136.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="96.108" cy="180.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="96.108" cy="224.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="96.108" cy="272.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="134.108" cy="272.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="134.108" cy="318.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="96.108" cy="318.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="133.108" cy="363.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="97.108" cy="363.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="134.108" cy="224.774" r="10.774"/>
+<circle fill="#B7B6B6" cx="134.108" cy="180.774" r="10.774"/>
+</svg>

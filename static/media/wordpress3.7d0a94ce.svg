@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="378.8799" y1="859.165" x2="740.5651" y2="232.7079">
+		<stop  offset="0" style="stop-color:#F3FF3F;stop-opacity:0.7"/>
+		<stop  offset="0.1813" style="stop-color:#C2DD4C;stop-opacity:0.7"/>
+		<stop  offset="0.5867" style="stop-color:#5B9567;stop-opacity:0.7"/>
+		<stop  offset="0.8682" style="stop-color:#196878;stop-opacity:0.7"/>
+		<stop  offset="1" style="stop-color:#00567F;stop-opacity:0.7"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M870.58,547.09c0,83.641-34.061,159.33-89.07,213.95l29.01,71.78L771.58,848.55l-23.71-58.67
+		c-44.64,32.93-98.69,53.83-157.36,57.95l-1.359,72.55l-42-0.78l1.34-71.72c-57.23-3.85-110.08-23.68-154.131-55.06L370.15,848.6
+		l-38.53-16.72l29.06-66.939c-52.869-50.58-87.359-120.23-92.43-197.911l-68.311,1.391l-0.859-41.99l69.32-1.41
+		c4.31-59.58,25.93-114.37,59.869-159.339l-37.149-75.79l37.71-18.49l29.47,60.13c48.22-47.14,112.2-78.25,183.29-84.68l1.26-67.23
+		l42,0.78l-1.22,65.56c78.76,3.73,149.61,37.69,201.2,90.53l24.55-58.08l38.68,16.36l-32.97,77.98
+		c27.08,38.14,45.51,82.85,52.44,131.279l71.529-1.449l0.86,41.99l-69.35,1.41C870.58,546.35,870.58,546.721,870.58,547.09z"/>
+	<circle fill="#FFFFFF" cx="569.334" cy="538.844" r="218.239"/>
+</g>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="249.8799" y1="815.165" x2="611.5651" y2="188.7079">
+	<stop  offset="0" style="stop-color:#FF7BAC"/>
+	<stop  offset="0.0902" style="stop-color:#FF85AC"/>
+	<stop  offset="0.7084" style="stop-color:#FFC6AC"/>
+	<stop  offset="1" style="stop-color:#FFDFAC"/>
+</linearGradient>
+<path fill="url(#SVGID_2_)" d="M741.58,503.09c0,83.641-34.061,159.33-89.07,213.95l29.01,71.78L642.58,804.55l-23.71-58.67
+	c-44.64,32.93-98.69,53.83-157.36,57.95l-1.359,72.55l-42-0.78l1.34-71.72c-57.23-3.85-110.08-23.68-154.131-55.06L241.15,804.6
+	l-38.53-16.72l29.06-66.939c-52.869-50.58-87.359-120.23-92.43-197.911l-68.311,1.391l-0.859-41.99l69.32-1.41
+	c4.31-59.58,25.93-114.37,59.869-159.339l-37.149-75.79l37.71-18.49l29.47,60.13c48.22-47.14,112.2-78.25,183.29-84.68l1.26-67.23
+	l42,0.78l-1.22,65.56c78.76,3.73,149.61,37.69,201.2,90.53l24.55-58.08l38.68,16.36l-32.97,77.98
+	c27.08,38.14,45.51,82.85,52.44,131.279l71.529-1.449l0.86,41.99l-69.35,1.41C741.58,502.35,741.58,502.721,741.58,503.09z"/>
+<circle fill="#FFFFFF" cx="440.334" cy="494.844" r="218.239"/>
+<radialGradient id="SVGID_3_" cx="552.5" cy="409" r="370.3999" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.5006" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.5368" style="stop-color:#EFFBFF"/>
+	<stop  offset="1" style="stop-color:#2ACCFF"/>
+</radialGradient>
+<path fill="url(#SVGID_3_)" d="M853.58,406.09c0,83.641-34.061,159.33-89.07,213.95l29.01,71.78L754.58,707.55l-23.71-58.67
+	c-44.64,32.93-98.69,53.83-157.36,57.95l-1.359,72.55l-42-0.78l1.34-71.72c-57.23-3.85-110.08-23.68-154.131-55.06L353.15,707.6
+	l-38.53-16.72l29.06-66.939c-52.869-50.58-87.359-120.23-92.43-197.911l-68.311,1.391l-0.859-41.99l69.32-1.41
+	c4.31-59.58,25.93-114.37,59.869-159.339l-37.149-75.79l37.71-18.49l29.47,60.13c48.22-47.14,112.2-78.25,183.29-84.68l1.26-67.23
+	l42,0.78l-1.22,65.56c78.76,3.73,149.61,37.69,201.2,90.53l24.55-58.08l38.68,16.36l-32.97,77.98
+	c27.08,38.14,45.51,82.85,52.44,131.279l71.529-1.449l0.86,41.99l-69.35,1.41C853.58,405.35,853.58,405.721,853.58,406.09z"/>
+<circle fill="#FFFFFF" cx="552.334" cy="397.844" r="218.239"/>
+<g>
+	
+		<image overflow="visible" opacity="0.35" width="1002" height="483" xlink:href="BC98CE65A674D9A2.png"  transform="matrix(1 0 0 1 6 260)">
+	</image>
+	<g>
+		<polygon fill="none" points="44.693,298.973 944.475,327.705 955.48,690.715 55.701,661.982 		"/>
+		<text transform="matrix(1.0819 0 0 1 296.022 417.0522)"><tspan x="0" y="0" fill="#151615" font-family="'Copperplate'" font-size="72">implement </tspan><tspan x="-136.645" y="86.4" fill="#151615" font-family="'Copperplate'" font-size="72">advanced Plugins</tspan></text>
+	</g>
+</g>
+</svg>
