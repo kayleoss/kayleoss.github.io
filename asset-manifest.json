@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.0f3150c5.css",
   "main.css.map": "static/css/main.0f3150c5.css.map",
-  "main.js": "static/js/main.cc8c9d4d.js",
-  "main.js.map": "static/js/main.cc8c9d4d.js.map",
+  "main.js": "static/js/main.80780e1b.js",
+  "main.js.map": "static/js/main.80780e1b.js.map",
   "static/media/code-icon-2.png": "static/media/code-icon-2.3198bcc7.png",
   "static/media/conquer.png": "static/media/conquer.9027234d.png",
   "static/media/contact.png": "static/media/contact.de5e38b1.png",
@@ -24,6 +24,6 @@
   "static/media/post-it.jpg": "static/media/post-it.a16dc98d.jpg",
   "static/media/projects.png": "static/media/projects.c707cc9e.png",
   "static/media/receipt.png": "static/media/receipt.7b01a3f3.png",
-  "static/media/recentlyfollowed.png": "static/media/recentlyfollowed.0145c004.png",
+  "static/media/recentlyfollowed.png": "static/media/recentlyfollowed.1cb80f51.png",
   "static/media/skills-button.png": "static/media/skills-button.e889444d.png"
 }
