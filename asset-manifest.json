@@ -1,11 +1,10 @@
 {
-  "main.css": "static/css/main.7e571e64.css",
-  "main.css.map": "static/css/main.7e571e64.css.map",
-  "main.js": "static/js/main.5367771d.js",
-  "main.js.map": "static/js/main.5367771d.js.map",
+  "main.css": "static/css/main.bee2e265.css",
+  "main.css.map": "static/css/main.bee2e265.css.map",
+  "main.js": "static/js/main.e18112de.js",
+  "main.js.map": "static/js/main.e18112de.js.map",
   "static/media/code-icon-2.png": "static/media/code-icon-2.3198bcc7.png",
   "static/media/conquer.png": "static/media/conquer.9027234d.png",
-  "static/media/contact.png": "static/media/contact.de5e38b1.png",
   "static/media/cta-button-katie.png": "static/media/cta-button-katie.1f777ba3.png",
   "static/media/design-icon-2.png": "static/media/design-icon-2.66b59000.png",
   "static/media/dradry.png": "static/media/dradry.30b9b3df.png",
@@ -14,7 +13,6 @@
   "static/media/hackTPS.png": "static/media/hackTPS.a5b9c38d.png",
   "static/media/hero-img-small.png": "static/media/hero-img-small.41fd8157.png",
   "static/media/hero-img.png": "static/media/hero-img.a37e46b3.png",
-  "static/media/jonas.png": "static/media/jonas.04881e9d.png",
   "static/media/loading.gif": "static/media/loading.1d7626e6.gif",
   "static/media/marketing-icon-2.png": "static/media/marketing-icon-2.b000ff3f.png",
   "static/media/mavencare-sunlife.png": "static/media/mavencare-sunlife.912097dd.png",
@@ -22,11 +20,10 @@
   "static/media/media1200.png": "static/media/media1200.241c0482.png",
   "static/media/neshama.png": "static/media/neshama.43af19fe.png",
   "static/media/nlanding.png": "static/media/nlanding.121f9103.png",
-  "static/media/party.png": "static/media/party.89a58c9f.png",
   "static/media/pbn.png": "static/media/pbn.7f19ae5a.png",
   "static/media/post-it.jpg": "static/media/post-it.a16dc98d.jpg",
   "static/media/projects.png": "static/media/projects.c707cc9e.png",
   "static/media/receipt.png": "static/media/receipt.7b01a3f3.png",
-  "static/media/recentlyfollowed.png": "static/media/recentlyfollowed.1cb80f51.png",
-  "static/media/skills-button.png": "static/media/skills-button.e889444d.png"
+  "static/media/skills-button.png": "static/media/skills-button.e889444d.png",
+  "static/media/techbuy2.png": "static/media/techbuy2.f2f8a994.png"
 }
