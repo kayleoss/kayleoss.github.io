@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b6e092ce.css",
-    "main.js": "/static/js/main.511a5592.js",
+    "main.js": "/static/js/main.e051e7f8.js",
     "static/media/covercensored.png": "/static/media/covercensored.6a31b0b7fe8571acdc19.png",
     "static/media/neshama.png": "/static/media/neshama.4c5e03e8196c4e90e4d4.png",
     "static/media/mavencare-sunlife.png": "/static/media/mavencare-sunlife.1dae7478d611db6ffd33.png",
@@ -26,7 +26,7 @@
     "static/media/code-icon-2.png": "/static/media/code-icon-2.ddf7c170400d2bf695b1.png",
     "static/media/design-icon-2.png": "/static/media/design-icon-2.290748b950d662079e7e.png",
     "static/media/hackTPS.png": "/static/media/hackTPS.b73bd4064586bb241494.png",
-    "static/media/jo.jpg": "/static/media/jo.f6de2367ec6edb730b77.jpg",
+    "static/media/jo.jpg": "/static/media/jo.75fff291cc49d6a27bca.jpg",
     "static/media/marketing-icon-2.png": "/static/media/marketing-icon-2.bf9ffff26f58ff107ba3.png",
     "static/media/projects.png": "/static/media/projects.99d41e61b056cafec28a.png",
     "static/media/protag2.jpg": "/static/media/protag2.4657758dd3a8e96e61cc.jpg",
@@ -37,10 +37,10 @@
     "static/media/skills-button.png": "/static/media/skills-button.46dcf588efe9d484514e.png",
     "index.html": "/index.html",
     "main.b6e092ce.css.map": "/static/css/main.b6e092ce.css.map",
-    "main.511a5592.js.map": "/static/js/main.511a5592.js.map"
+    "main.e051e7f8.js.map": "/static/js/main.e051e7f8.js.map"
   },
   "entrypoints": [
     "static/css/main.b6e092ce.css",
-    "static/js/main.511a5592.js"
+    "static/js/main.e051e7f8.js"
   ]
 }
