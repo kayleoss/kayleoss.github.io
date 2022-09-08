@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b6e092ce.css",
-    "main.js": "/static/js/main.f9bf74b7.js",
+    "main.js": "/static/js/main.6242649e.js",
     "static/media/covercensored.png": "/static/media/covercensored.6a31b0b7fe8571acdc19.png",
     "static/media/Dakota.jpg": "/static/media/Dakota.63888bb59c31f8547ad3.jpg",
     "static/media/neshama.png": "/static/media/neshama.4c5e03e8196c4e90e4d4.png",
@@ -14,14 +14,12 @@
     "static/media/footer.png": "/static/media/footer.fd13d03f690f1927c102.png",
     "static/media/mavencare.png": "/static/media/mavencare.d32dd56a0cfc822e392a.png",
     "static/media/receipt.png": "/static/media/receipt.3c84417f05fed2840faa.png",
-    "static/media/Marsha.jpg": "/static/media/Marsha.828f88c55dfdb9a46b03.jpg",
+    "static/media/Marsha.jpg": "/static/media/Marsha.4658fd5a69220e332561.jpg",
     "static/media/techbuy2.png": "/static/media/techbuy2.25521c8d9f0856b0b920.png",
-    "static/media/webtoon1.jpg": "/static/media/webtoon1.b5d1d90c684a2932bbc1.jpg",
     "static/media/instastoryviewer.png": "/static/media/instastoryviewer.887322864e9b6ff78abf.png",
     "static/media/manifestation.jpg": "/static/media/manifestation.2e557151b1893284b942.jpg",
     "static/media/festival1.jpg": "/static/media/festival1.216ed7ccda2237723507.jpg",
     "static/media/hero-img-small.png": "/static/media/hero-img-small.9c3209c01f43406fb67b.png",
-    "static/media/webtoon1.png": "/static/media/webtoon1.254961534947df99ae9f.png",
     "static/media/loading.gif": "/static/media/loading.7f686c03a467bef7dac6.gif",
     "static/media/thekick.jpg": "/static/media/thekick.60830f6d1aa8ef43e422.jpg",
     "static/media/code-icon-2.png": "/static/media/code-icon-2.ddf7c170400d2bf695b1.png",
@@ -30,18 +28,16 @@
     "static/media/jo.jpg": "/static/media/jo.75fff291cc49d6a27bca.jpg",
     "static/media/marketing-icon-2.png": "/static/media/marketing-icon-2.bf9ffff26f58ff107ba3.png",
     "static/media/projects.png": "/static/media/projects.99d41e61b056cafec28a.png",
-    "static/media/protag2.jpg": "/static/media/protag2.4657758dd3a8e96e61cc.jpg",
     "static/media/together2.jpg": "/static/media/together2.2c7164f2c6be60438cf5.jpg",
-    "static/media/protag1.jpg": "/static/media/protag1.3999a534ee5742b5526d.jpg",
     "static/media/post-it.jpg": "/static/media/post-it.849176120e25e7f964b9.jpg",
     "static/media/cta-button-katie.png": "/static/media/cta-button-katie.ab7191e6bcfd50622b7e.png",
     "static/media/skills-button.png": "/static/media/skills-button.46dcf588efe9d484514e.png",
     "index.html": "/index.html",
     "main.b6e092ce.css.map": "/static/css/main.b6e092ce.css.map",
-    "main.f9bf74b7.js.map": "/static/js/main.f9bf74b7.js.map"
+    "main.6242649e.js.map": "/static/js/main.6242649e.js.map"
   },
   "entrypoints": [
     "static/css/main.b6e092ce.css",
-    "static/js/main.f9bf74b7.js"
+    "static/js/main.6242649e.js"
   ]
 }
