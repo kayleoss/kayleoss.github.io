@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff2572b0.css",
-    "main.js": "/static/js/main.79407068.js",
+    "main.css": "/static/css/main.df4a07c8.css",
+    "main.js": "/static/js/main.2d811b33.js",
     "static/media/mf2.png": "/static/media/mf2.e080bc171cf10ed96e1b.png",
     "static/media/neshama.png": "/static/media/neshama.4c5e03e8196c4e90e4d4.png",
     "static/media/mavencare-sunlife.png": "/static/media/mavencare-sunlife.1dae7478d611db6ffd33.png",
@@ -36,11 +36,11 @@
     "static/media/cta-button-katie.png": "/static/media/cta-button-katie.ab7191e6bcfd50622b7e.png",
     "static/media/skills-button.png": "/static/media/skills-button.46dcf588efe9d484514e.png",
     "index.html": "/index.html",
-    "main.ff2572b0.css.map": "/static/css/main.ff2572b0.css.map",
-    "main.79407068.js.map": "/static/js/main.79407068.js.map"
+    "main.df4a07c8.css.map": "/static/css/main.df4a07c8.css.map",
+    "main.2d811b33.js.map": "/static/js/main.2d811b33.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff2572b0.css",
-    "static/js/main.79407068.js"
+    "static/css/main.df4a07c8.css",
+    "static/js/main.2d811b33.js"
   ]
 }
