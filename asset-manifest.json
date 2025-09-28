@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.df4a07c8.css",
-    "main.js": "/static/js/main.2d811b33.js",
+    "main.css": "/static/css/main.ff2572b0.css",
+    "main.js": "/static/js/main.61b296e2.js",
     "static/media/mf2.png": "/static/media/mf2.e080bc171cf10ed96e1b.png",
     "static/media/neshama.png": "/static/media/neshama.4c5e03e8196c4e90e4d4.png",
     "static/media/mavencare-sunlife.png": "/static/media/mavencare-sunlife.1dae7478d611db6ffd33.png",
@@ -10,7 +10,6 @@
     "static/media/mf1.png": "/static/media/mf1.08a0175cf31b9af160b3.png",
     "static/media/hero-img.png": "/static/media/hero-img.81f3c8f807f891710bcf.png",
     "static/media/techbuy.png": "/static/media/techbuy.6280e8729a80e91c5510.png",
-    "static/media/covercensored.png": "/static/media/covercensored.d11997e3ce45fe74609e.png",
     "static/media/media1200.png": "/static/media/media1200.4751e2f1e44311779279.png",
     "static/media/pbn.png": "/static/media/pbn.78df8a7e3a284d3a2ac7.png",
     "static/media/footer.png": "/static/media/footer.fd13d03f690f1927c102.png",
@@ -20,6 +19,7 @@
     "static/media/instastoryviewer.png": "/static/media/instastoryviewer.887322864e9b6ff78abf.png",
     "static/media/RockStarTears.jpg": "/static/media/RockStarTears.d36a88364a601764ae1a.jpg",
     "static/media/elf.jpg": "/static/media/elf.368bd74590817af17957.jpg",
+    "static/media/covercensored.png": "/static/media/covercensored.820e213a685497bdee93.png",
     "static/media/festival1.jpg": "/static/media/festival1.216ed7ccda2237723507.jpg",
     "static/media/hero-img-small.png": "/static/media/hero-img-small.9c3209c01f43406fb67b.png",
     "static/media/vintage.jpg": "/static/media/vintage.6c8b2d530ef627269971.jpg",
@@ -36,11 +36,11 @@
     "static/media/cta-button-katie.png": "/static/media/cta-button-katie.ab7191e6bcfd50622b7e.png",
     "static/media/skills-button.png": "/static/media/skills-button.46dcf588efe9d484514e.png",
     "index.html": "/index.html",
-    "main.df4a07c8.css.map": "/static/css/main.df4a07c8.css.map",
-    "main.2d811b33.js.map": "/static/js/main.2d811b33.js.map"
+    "main.ff2572b0.css.map": "/static/css/main.ff2572b0.css.map",
+    "main.61b296e2.js.map": "/static/js/main.61b296e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.df4a07c8.css",
-    "static/js/main.2d811b33.js"
+    "static/css/main.ff2572b0.css",
+    "static/js/main.61b296e2.js"
   ]
 }
