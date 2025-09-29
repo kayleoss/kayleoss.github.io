@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff2572b0.css",
-    "main.js": "/static/js/main.61b296e2.js",
+    "main.js": "/static/js/main.30afa493.js",
     "static/media/mf2.png": "/static/media/mf2.e080bc171cf10ed96e1b.png",
     "static/media/neshama.png": "/static/media/neshama.4c5e03e8196c4e90e4d4.png",
     "static/media/mavencare-sunlife.png": "/static/media/mavencare-sunlife.1dae7478d611db6ffd33.png",
@@ -16,8 +16,10 @@
     "static/media/mf.gif": "/static/media/mf.ddf058b325f958d7a4bc.gif",
     "static/media/rhythmburst.gif": "/static/media/rhythmburst.52fb9bdce2aee234852e.gif",
     "static/media/mavencare1.gif": "/static/media/mavencare1.bb4344d03295daa65ba1.gif",
+    "static/media/meetingdevon.gif": "/static/media/meetingdevon.cb61a13346876ea838cc.gif",
     "static/media/instastoryviewer.png": "/static/media/instastoryviewer.887322864e9b6ff78abf.png",
     "static/media/RockStarTears.jpg": "/static/media/RockStarTears.d36a88364a601764ae1a.jpg",
+    "static/media/rhythmburst.png": "/static/media/rhythmburst.5da7d6ce84e16d61ceb4.png",
     "static/media/elf.jpg": "/static/media/elf.368bd74590817af17957.jpg",
     "static/media/covercensored.png": "/static/media/covercensored.820e213a685497bdee93.png",
     "static/media/festival1.jpg": "/static/media/festival1.216ed7ccda2237723507.jpg",
@@ -37,10 +39,10 @@
     "static/media/skills-button.png": "/static/media/skills-button.46dcf588efe9d484514e.png",
     "index.html": "/index.html",
     "main.ff2572b0.css.map": "/static/css/main.ff2572b0.css.map",
-    "main.61b296e2.js.map": "/static/js/main.61b296e2.js.map"
+    "main.30afa493.js.map": "/static/js/main.30afa493.js.map"
   },
   "entrypoints": [
     "static/css/main.ff2572b0.css",
-    "static/js/main.61b296e2.js"
+    "static/js/main.30afa493.js"
   ]
 }
